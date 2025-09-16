@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="no">
+<!-- head = informasjon til nettleser -->
+
+<head>
+  <title>Hjem</title>
+  <link href="code.png" rel="icon" type="image/png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <!-- External files -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<!-- body = informasjon til nettsiden -->
+
+<body class="flex">
+  <header class="flex">
+    <img src="dark_light.png" alt="fant ikke icon" />
+    <nav class="flex headerNav">
+      <ul class="flex navListHeader">
+        <li>
+          <a href="#home">Hjem</a>
+        </li>
+        <li>
+          <a href="#htmllinkher">Om</a>
+        </li>
+        <li>
+          <a href="#htmllinkher">Ringene</a>
+        </li>
+        <li>
+          <a href="#htmllinkher">Månene</a>
+        </li>
+        <li>
+          <a href="#htmllinkher">Romferdene</a>
+        </li>
+      </ul>
+      <img onclick="hamburgerToggle()" class="hamburgerIcon" src="hamburger.png" alt="Hamburger meny ikon" />
+      <img class="logoSaturnImg" src="logoheader.png" alt="fant ikke logo" />
+    </nav>
+
+  </header>
+
+  <main class>
+    <section id="home" class="flex section">
+      <!-- Hero / Main / Home -->
+      <div class="flex heroText">
+        <h1>Saturn</h1>
+        <p class="sitatJK">
+          "Deep in the shady sadness of a vale. Far sunken from tie healthy breath of morn. Far from the fiery noon, and
+          eve's one star, Sat gray-hair'd Saturn, quiet as a stone, Still as the silence round about his lair”
+        </p>
+        <p class="sitatKreditasjon">(“Hyperion “ - John Keats)</p>
+      </div>
+      <img class="heroImg" src="HeroImg.png" alt="fant ikke img"/>
+     
+    </section>
+
+  </main>
+
+  <footer class="flex">
+    <img class="imgLogoKodeloftet" src="kodeloftalpha_hvit.png" alt="fant ikke logo"/>
+    <div class="divNASA">
+      <p class="tekstNASA">All pictures taken from NASA </p>
+      <p class="tekstNASA">if not specified otherwise</p>
+    </div>
+    <div class="flex infoAndIconsDiv">
+      <div class="flex minInfoDiv">
+        <p class="tekstWSLaget">Web side laget av</p>
+        <p class="tekstMittNavn">Harald N.</p>
+       
+      </div>
+      <a href="mailto:haraldn.kodeloftet@gmail.com" target="_blank"> <img src="email42px.png" alt="fant ikke icon"/> </a>
+      <a href="https://github.com/Lazy-CSharp-Coder" target="_blank"> <img src="github32px.png" alt="fant ikke icon"/></a>
+    </div>
+  </footer>
+</body>
+
+</html>
