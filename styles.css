@@ -123,6 +123,7 @@ h1 {
 .heroText {
   flex-direction: column;
   justify-self: center;
+  align-items: center;
   color:var(--primaryTextColor);
 }
 
@@ -133,6 +134,7 @@ h1 {
 .sitatJK {
   font-family: "Italianno";
   font-size:36px;
+  width:525px;
 }
 
 .sitatKreditasjon {
