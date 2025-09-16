@@ -178,5 +178,7 @@ h1 {
 }
 footer {
  
-  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+
 } 
