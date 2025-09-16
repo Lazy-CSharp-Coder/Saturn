@@ -191,6 +191,9 @@ h2 {
 
 }
 
+.imageAndQuoteDiv {
+  flex-direction: row;
+}
 .imageAndStatsDiv {
   flex-direction: row;
 }
