@@ -57,7 +57,7 @@ a {
 
   list-style-type: none;
   width:588px;
-  gap:30px;
+  
   
 }
 
@@ -71,6 +71,7 @@ a {
 {
   width:73px;
   height:69px;
+  padding-left:30px;
 }
 
 .hidden {
