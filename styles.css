@@ -32,7 +32,7 @@ body {
 
   flex-direction: column;
   min-height: 100vh; 
-
+  background-color: var(--primaryBackgroundColor);
 }
 
 /* HEADER */
@@ -118,10 +118,10 @@ a {
 
 main {
   flex-grow: 1;
-  background-color: var(--primaryBackgroundColor);
+  /* background-color: var(--primaryBackgroundColor); */
   color:var(--primaryTextColor);
   font-family: var(--primaryTextFontFamily);
-  
+  margin-bottom:52px;
 }
 
 h1 {
@@ -246,6 +246,11 @@ p {
 {
   width:845px;
   text-align: center;
+}
+
+.solsystemImg {
+  padding-top:40px;
+  padding-bottom: 40px;
 }
 
 
