@@ -161,11 +161,15 @@ h1 {
   font-family: "Italianno";
   font-size:36px;
   width:525px;
+  padding:0;
+  margin:0;
 }
 
 .sitatKreditasjon {
   font-family: var(--primaryTextFontFamily);
   font-size:12px;
+  margin:0;
+  padding-top:19px;
 }
 /* 
 
@@ -176,9 +180,19 @@ h1 {
     font-family: var(--primaryTextFontFamily);
     font-size: 14px;
 }
+
+.imgLogoKodeloftet {
+  width:115px;
+  height:62px;
+
+}
 footer {
- 
+  background-color: black;
+  border: 1px solid white;
   flex-direction: row;
   justify-content: space-between;
-
+  align-items:center;
+  height:94px;
+  padding-left: 28px;
+  padding-right: 28px;
 } 
