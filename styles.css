@@ -42,18 +42,16 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
-  padding: 0 16px;
   border: 1px solid white;
- 
+  padding-left:23px;
+  padding-right:23px;
+
 }
 
 .headerNav {
   flex-direction: row;
   align-items: center;
   gap:30px;  
-  margin-left:23px;
-  margin-right:23px;  
-
 }
 
 a {
