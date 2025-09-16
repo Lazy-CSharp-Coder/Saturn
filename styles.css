@@ -118,6 +118,7 @@ main {
   flex-grow: 1;
   background-color: var(--primaryBackgroundColor);
   color:var(--primaryTextColor);
+  font-family: var(--primaryTextFontFamily);
   
 }
 
@@ -126,6 +127,12 @@ h1 {
   font-family: var(--primaryFontFamily);
   font-size: 96px;
   font-weight: normal;
+}
+
+h2 {
+   font-family: var(--primaryFontFamily);
+   font-size:68px;
+   
 }
 
 .section {
@@ -164,7 +171,17 @@ h1 {
   margin:0;
   padding-top:19px;
 }
-/* 
+/* om.html klasser */
+
+.omImg
+{
+  width:471;
+
+}
+
+.
+
+
 
 /* FOOTER */
 .imgLogoKodeloftet {
