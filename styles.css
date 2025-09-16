@@ -38,7 +38,8 @@ header {
 
   font-family: var(--primaryFontFamily);
   font-size: 32px;
-  font-style: normal;
+  color:var(--primaryTextColor);
+  text-decoration: none;
   justify-content: space-between;
   gap: 16px;
   list-style-type: none;
