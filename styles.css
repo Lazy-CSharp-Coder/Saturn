@@ -198,7 +198,13 @@ h2 {
 .imageAndStatsDiv {
   flex-direction: row;
 }
+.faktaKategorierDiv {
+  flex-direction: column;
 
+}
+.faktaSaturnDiv {
+  flex-direction: column;
+}
 
 /* FOOTER */
 .imgLogoKodeloftet {
