@@ -170,6 +170,12 @@ h1 {
 /* 
 
 /* FOOTER */
+
+.textNASA
+{
+    font-family: var(--primaryTextFontFamily);
+    font-size: 14px;
+}
 footer {
  
   text-align: center;
