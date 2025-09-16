@@ -237,6 +237,7 @@ p {
 
 .faktaKategorier, .faktaSaturn {
   margin: 0;
+  width:auto;
 }
 
 /* FOOTER */
@@ -245,24 +246,26 @@ p {
   /* height:62px; */
 
 }
-.tekstNASA {
-    
-    text-decoration: underline;    
-    margin:0;
-    padding:0;
-    text-align: center;
+.tekstNASA, .tekstWSLaget, .tekstMittNavn {
+  margin: 0;
+  padding: 0;
+  width: auto;
+
 }
 
-.tekstWSLaget {
+.tekstNASA {
+  text-decoration: underline;    
+  text-align: center;
+}
+
+/* .tekstWSLaget {
   margin:0;
   padding:0;
 
-}
+} */
 
 .tekstMittNavn {
-  margin: 0;
-  padding: 0;
-  color: #EE7700;
+   color: #EE7700;
 
 }
 
