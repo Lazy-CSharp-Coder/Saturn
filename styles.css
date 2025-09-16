@@ -21,7 +21,7 @@ font-family: ;
 /* BODY */
 body {
   margin: 0;
-  f
+  
 }
 
 /* HEADER */
@@ -51,7 +51,6 @@ a {
   font-family: var(--primaryFontFamily);
   font-size: 32px;
   justify-content: space-between;
-  gap: 16px;
   list-style-type: none;
   width:588px;
   
