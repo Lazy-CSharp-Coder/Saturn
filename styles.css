@@ -12,7 +12,8 @@
   --secondaryMenuColor:#fca75c;
   --primaryTextFontFamily:"Inknut Antiqua";
   --primaryFontFamily:"Story Script";
-  
+  --linkColor:lightblue;
+    
 }
 
 * {
@@ -237,9 +238,9 @@ p {
   width:auto;
 }
 
-.linkWikiPage
-{
-  color:lightblue;
+.linkWikiPage {
+
+  color:var(--linkColor);
 }
 .sitatCarolyn
 {
@@ -251,7 +252,19 @@ p {
 
 /* FOOTER */
 
-
+footer {
+  font-family: var(--primaryTextFontFamily);
+  font-size: 14px;
+  color: var(--secondaryTextColor);
+  background-color: black;
+  border: 1px solid white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  height:94px;
+  padding-left: 28px;
+  padding-right: 28px;
+} 
 
 .imgLogoKodeloftet {
   width:120px;
@@ -297,16 +310,3 @@ p {
 
 
 
-footer {
-  font-family: var(--primaryTextFontFamily);
-  font-size: 14px;
-  color: var(--secondaryTextColor);
-  background-color: black;
-  border: 1px solid white;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items:center;
-  height:94px;
-  padding-left: 28px;
-  padding-right: 28px;
-} 
