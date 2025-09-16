@@ -30,14 +30,20 @@ header {
 }
 
 .headerNav {
+  width:100%;
 
 }
 
 .navListHeader {
 
-  justify-content: center;
+  font-family: var(--primaryFontFamily);
+  font-size: 32px;
+  font-style: normal;
+  justify-content: space-between;
   gap: 16px;
   list-style-type: none;
+  width:588px;
+  
 }
 
 .hamburgerIcon {
