@@ -113,6 +113,7 @@ a {
 
 main {
   flex-grow: 1;
+  background-color: var(--primaryBackgroundColor);
 
   
 }
@@ -126,9 +127,11 @@ h1 {
 
 .section {
 
-  background-color: var(--primaryBackgroundColor);
+ 
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+
 
 }
 
