@@ -180,6 +180,7 @@ h2 {
 .omImg
 {
   width:471px;
+  height:420px;
   
 
 }
@@ -189,11 +190,14 @@ h2 {
   font-family: "Gentium Plus";
   font-style: italic;
   font-size:20px;
+  width: 617px;
+  paddin-left:221px;
 
 }
 
 .imageAndQuoteDiv {
   flex-direction: row;
+  align-items: center;
 }
 .imageAndStatsDiv {
   flex-direction: row;
