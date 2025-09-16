@@ -178,7 +178,7 @@ h1 {
 {
     font-family: var(--primaryTextFontFamily);
     font-size: 14px;
-    color:var(--secondaryTextColor);
+    color: var(--secondaryTextColor);
 }
 
 .imgLogoKodeloftet {
