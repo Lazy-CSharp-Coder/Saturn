@@ -130,7 +130,7 @@ h1 {
  
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+
 
 
 
@@ -143,11 +143,14 @@ h1 {
   justify-self: center;
   align-items: center;
   color:var(--primaryTextColor);
+  padding-top:67px;
 }
 
 .heroImg {
   width: 765px;
+  height: 682px;
   padding-left: 10px;
+  padding-top:108px;
 
 }
 .sitatJK {
