@@ -111,7 +111,7 @@ h1 {
 
 /* MAIN */
 .section {
-  height: 100vh;
+
   background-color: var(--primaryBackgroundColor);
   align-items: center;
   justify-content: space-between;
