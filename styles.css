@@ -176,6 +176,7 @@ h2 {
 
 .omSection {
   flex-direction: column;
+  align-items: center;
 }
 .omImg
 {
@@ -190,15 +191,24 @@ h2 {
   font-family: "Gentium Plus";
   font-style: italic;
   font-size:20px;
-  width: 838px; 
-  padding-left:221px;
+  width: 617px; 
+  /* padding-left:221px; */
 
 }
 
 .imageAndQuoteDiv, .imageAndStatsDiv {
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  
+}
+
+.imageAndQuoteDiv {
+  width: 1016px;
+}
+
+.imageAndStatsDiv {
+  width: 1244px;
 }
 /* 
 .imageAndStatsDiv {
@@ -221,7 +231,7 @@ h2 {
 
 .faktaKategorier, .faktaSaturn {
   margin: 0;
-
+}
 
 /* FOOTER */
 .imgLogoKodeloftet {
