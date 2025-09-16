@@ -61,6 +61,13 @@ a {
   
 }
 
+h1 {
+
+  font-family: var(--primaryFontFamily);
+  font-size: 96px;
+  font-weight: normal;
+}
+
 .hamburgerIcon {
   height: 32px;
   width: 32px;
@@ -106,10 +113,16 @@ a {
   color:var(--primaryTextColor);
 }
 
+.heroImg {
+  width: 785px;
+  height: 682px;
+}
+
 /* MAIN */
 .section {
   height: 100vh;
   background-color: var(--primaryBackgroundColor);
+
 }
 
 #transition {
