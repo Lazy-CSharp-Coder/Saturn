@@ -113,8 +113,8 @@ h1 {
 .section {
 
   background-color: var(--primaryBackgroundColor);
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
 
 }
 
