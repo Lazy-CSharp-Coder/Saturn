@@ -195,21 +195,33 @@ h2 {
 
 }
 
-.imageAndQuoteDiv {
+.imageAndQuoteDiv, .imageAndStatsDiv {
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+/* 
 .imageAndStatsDiv {
   flex-direction: row;
+} */
+
+.faktaKategorierDiv, .faktaSaturnDiv {
+  flex-direction: column;
+  font-family: var(--primaryTextFontFamily);
+  font-size: 14px;
+  
 }
 .faktaKategorierDiv {
-  flex-direction: column;
+  font-weight: bold;
 
 }
 .faktaSaturnDiv {
-  flex-direction: column;
+  font-weight: normal;
 }
+
+.faktaKategorier, .faktaSaturn {
+  margin: 0;
+
 
 /* FOOTER */
 .imgLogoKodeloftet {
