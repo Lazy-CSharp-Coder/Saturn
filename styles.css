@@ -173,27 +173,39 @@ h1 {
 /* 
 
 /* FOOTER */
+.imgLogoKodeloftet {
+  width:115px;
+  height:62px;
 
-.tekstNASA
-{
-    font-family: var(--primaryTextFontFamily);
-    font-size: 14px;
-    color: var(--secondaryTextColor);
+}
+.tekstNASA {
+    
     text-decoration: underline;    
     margin:0;
     padding:0;
     text-align: center;
 }
 
-
-
-.imgLogoKodeloftet {
-  width:115px;
-  height:62px;
+.tekstWSLaget {
+  margin:0;
+  padding:0;
 
 }
 
+.tekstMittNavn {
+  margin: 0;
+  padding: 0;
+  color: #EE7700;
+
+}
+
+
+
+
 footer {
+  font-family: var(--primaryTextFontFamily);
+  font-size: 14px;
+  color: var(--secondaryTextColor);
   background-color: black;
   border: 1px solid white;
   flex-direction: row;
