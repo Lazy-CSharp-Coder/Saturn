@@ -15,7 +15,7 @@
 }
 
 .flex{
-font-family: ;
+
   display: flex;
 }
 /* BODY */
@@ -28,7 +28,7 @@ body {
 header {
   
   background-color: black;   /* svart her, ikke variabel, skal alltid være svart */
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   position: sticky;
@@ -37,6 +37,7 @@ header {
 }
 
 .headerNav {
+  flex-direction: row;
   width:100%;
 
 }
