@@ -215,11 +215,8 @@ p {
 
 .imageAndStatsDiv {
   width: 1244px;
+  padding-bottom: 109px;
 }
-/* 
-.imageAndStatsDiv {
-  flex-direction: row;
-} */
 
 .faktaKategorierDiv, .faktaSaturnDiv {
   flex-direction: column;
@@ -240,7 +237,18 @@ p {
   width:auto;
 }
 
+.sitatCarolyn
+{
+  width:845px;
+  text-align: center;
+}
+
+
+
 /* FOOTER */
+
+
+
 .imgLogoKodeloftet {
   width:120px;
   /* height:62px; */
