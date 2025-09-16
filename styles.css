@@ -1,20 +1,27 @@
 /* GENERAL */
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
 
 :root{
   --primaryBackgroundColor:black;
   --primaryTextColor:white;
+  --secondaryTextColor:#dcdcdc;
+  --primaryMenuColor:#dcdcdc;
+  --secondaryMenuColor:#fca75c;
+  --primaryTextFontFamily:"Inknut "
   --primaryFontFamily:"Story Script"
+  
 }
 
 .flex{
-
+font-family: ;
   display: flex;
 }
 /* BODY */
 body {
   margin: 0;
-  font-family: "Roboto";
+  f
 }
 
 /* HEADER */
@@ -34,12 +41,15 @@ header {
 
 }
 
+a {
+  color:var(--primaryMenuColor);
+  text-decoration: none;
+}
+
 .navListHeader {
 
   font-family: var(--primaryFontFamily);
   font-size: 32px;
-  color:var(--primaryTextColor);
-  text-decoration: none;
   justify-content: space-between;
   gap: 16px;
   list-style-type: none;
