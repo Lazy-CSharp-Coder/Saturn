@@ -198,6 +198,7 @@ h2 {
 .imageAndQuoteDiv {
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 .imageAndStatsDiv {
   flex-direction: row;
