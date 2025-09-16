@@ -237,6 +237,10 @@ p {
   width:auto;
 }
 
+.linkWikiPage
+{
+  color:var(--secondaryMenuColor);
+}
 .sitatCarolyn
 {
   width:845px;
