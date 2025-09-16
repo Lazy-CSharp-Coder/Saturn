@@ -1,6 +1,16 @@
 /* GENERAL */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
+:root{
+  --primaryBackgroundColor:black;
+  --primaryTextColor:white;
+  --primaryFontFamily:"Story Script"
+}
+
+.flex{
+
+  display: flex;
+}
 /* BODY */
 body {
   margin: 0;
@@ -9,6 +19,8 @@ body {
 
 /* HEADER */
 header {
+  
+  background-color: black;   /* svart her, ikke variabel, skal alltid være svart */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,11 +30,11 @@ header {
 }
 
 .headerNav {
-  display: flex;
+
 }
 
-.navList {
-  display: flex;
+.navListHeader {
+
   justify-content: center;
   gap: 16px;
   list-style-type: none;
