@@ -80,8 +80,7 @@ a {
 .logoSaturnImg 
 {
   width:73px;
-  height:69px;
-  
+  padding-right:23px;  
 }
 
 .hidden {
@@ -129,14 +128,8 @@ h1 {
 }
 
 .section {
-
- 
   flex-direction: row;
   justify-content: center;
-
-
-
-
 }
 
 /* Hero page klasser  */
