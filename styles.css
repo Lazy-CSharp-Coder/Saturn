@@ -50,7 +50,7 @@ header {
 .headerNav {
   flex-direction: row;
   align-items: center;
-    
+  gap:30px;    
 
 }
 
@@ -68,8 +68,8 @@ a {
   list-style-type: none;
   width:588px;
   
+  
 }
-
 
 .hamburgerIcon {
   height: 32px;
@@ -81,7 +81,7 @@ a {
 {
   width:73px;
   height:69px;
-  padding-left:30px;
+  
 }
 
 .hidden {
@@ -178,6 +178,7 @@ h1 {
 {
     font-family: var(--primaryTextFontFamily);
     font-size: 14px;
+    color:var(--secondaryTextColor);
 }
 
 .imgLogoKodeloftet {
