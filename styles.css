@@ -248,9 +248,9 @@ p {
   text-align: center;
 }
 
-.solsystemImg {
-  padding-top:40px;
-  padding-bottom: 40px;
+.solsystemetImg, .kjerneSaturnImg {
+  padding-top:60px;
+  padding-bottom: 60px;
 }
 
 
