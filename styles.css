@@ -40,6 +40,7 @@ header {
 .headerNav {
   flex-direction: row;
   align-items: center;
+    
 
 }
 
@@ -56,6 +57,7 @@ a {
 
   list-style-type: none;
   width:588px;
+  gap:16px;
   
 }
 
