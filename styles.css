@@ -315,10 +315,24 @@ p {
 
 .tekstQTDiv
 {
-  display:grid;
-  width:511px;
-  height: 330px;
+  
+  position: relative;
+  width:1440px;
+  height: 500px;
    
+}
+.tekstQuestion, .qt {
+  
+  grid-column: 1;
+  grid-row:1;
+  position:absolute;
+  top:0;
+}
+
+.qt {
+  font-size: 128px;
+  opacity: 0.5;
+ 
 }
 
 .cassiniShadowImgText, .ringeneImgText, .molekylImgText {
@@ -333,17 +347,7 @@ p {
 .videoText {
   padding-bottom: 20px;
 }
-.tekstQuestion, .qt {
-  
-  grid-column: 1;
-  grid-row:1;
-}
 
-.qt {
-  font-size: 128px;
-  opacity: 0.5;
- 
-}
 
 /* FOOTER */
 
