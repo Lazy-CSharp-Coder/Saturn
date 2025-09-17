@@ -266,12 +266,15 @@ p {
   color:var(--secondaryMenuColor);
 }
 
+.underMenyTekst {
+  font-size:60px;
+}
 .navListRingene
 {
   list-style-type: none;
   width:484px;
   gap:37px;
-
+  font-size: 32px;
 }
 .
 /* FOOTER */
