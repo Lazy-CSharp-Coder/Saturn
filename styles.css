@@ -385,9 +385,11 @@ p {
   
   width:  550px;
   padding-top: 170px;
-  
-  
+}
 
+.encMaaneImg {
+  width: 550px;
+  padding:0;
 }
 .maaneSection {
 
