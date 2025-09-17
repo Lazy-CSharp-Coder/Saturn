@@ -261,7 +261,9 @@ p {
 
 
 /* ringene.html klasser */
-
+.mainRingene {
+  top:0;
+}
 .underMenyDiv {
   flex-direction: row;
   justify-content: space-between;
@@ -274,6 +276,8 @@ p {
   padding-left:28px;
   padding-right:178px;
   position:sticky;
+  top:106px;
+  background-color: black;
   z-index: 10;
 
 }
