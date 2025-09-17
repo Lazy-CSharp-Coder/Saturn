@@ -323,7 +323,7 @@ p {
 
   width:511px;
   height: 330px;
-  background-color: rgb(192, 79, 98)161, 32, 53);
+  background-color: rgb(192, 79, 98);
    
 }
 .tekstQuestion, .qt {
@@ -336,12 +336,15 @@ p {
 
 .tekstQuestion {
   z-index: 2;
+  margin: 0;
+  padding:0
 }
 
 .qt {
   font-size: 128px;
   opacity: 0.5;
   z-index: 1;
+ 
 }
 
 .cassiniShadowImgText, .ringeneImgText, .molekylImgText {
