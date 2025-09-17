@@ -306,16 +306,20 @@ p {
   font-size: 10px;
 }
 
-.tekstQT
+.tekstQTDiv
 {
   flex-direction: row;
+  position:relative;
 
+}
+.tekstQuestion {
+  position:absolute;
 }
 .qt {
   font-size: 128px;
   opacity: 0.5;
-  top:-20px;
-  position: relative;
+  top:0;
+  position: absolute;
 }
 
 /* FOOTER */
