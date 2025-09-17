@@ -321,6 +321,12 @@ p {
    
 }
 
+.cassiniShadowImgText {
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .tekstQuestion, .qt {
   
   grid-column: 1;
