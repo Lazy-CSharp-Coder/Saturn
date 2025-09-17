@@ -313,6 +313,12 @@ p {
   text-align: center;
 }
 
+
+.komposisjonSection, .beskrivelseSection, .dannelseSection {
+  flex-direction: column;
+  scroll-margin-top:200px;
+}
+
 .tekstQTDiv
 {
 
@@ -328,7 +334,8 @@ p {
 }
 .tekstQuestion, .qt {
   
-  grid-area: 1/1;
+  grid-column: 1;
+  grid-row:1;
   color:#e6ac7b;
   text-align: center;
 
