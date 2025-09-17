@@ -265,6 +265,13 @@ p {
   color:var(--secondaryMenuColor);
 }
 
+.navListRingene
+{
+  list-style-type: none;
+  width:484px;
+
+}
+.
 /* FOOTER */
 
 footer {
