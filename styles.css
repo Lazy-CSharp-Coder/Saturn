@@ -258,6 +258,7 @@ p {
 
 .underMenyDiv {
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .underMenyAnchor {
