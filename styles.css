@@ -315,10 +315,12 @@ p {
 
 .tekstQTDiv
 {
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+
   position: relative;
+  /* align-items: center;
+  justify-content: center;
+  flex-direction: row; */
+
   width:1440px;
   height: 330px;
   background-color: pink;
@@ -327,8 +329,10 @@ p {
 .tekstQuestion, .qt {
   
   position:absolute;
-   top:0;
-  left:0
+  top:0;
+  left:0;
+  color:#fca75c;
+
 }
 
 .qt {
