@@ -271,12 +271,13 @@ p {
 }
 .logoTekstDiv {
   align-items: center;
+  gap:47px;
 }
 
 .logoRingeneImg{
   width:88px;
   height: 63px;
-  padding-right: 47px;
+ 
 }
 
 .underMenyAnchor {
@@ -292,6 +293,11 @@ p {
   width:484px;
   gap:37px;
   font-size: 32px;
+}
+
+.bildeTekst
+{
+  font-size: 10px;
 }
 
 /* FOOTER */
