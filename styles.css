@@ -276,7 +276,9 @@ p {
   gap:37px;
   font-size: 32px;
 }
-.
+.logoRingsImg {
+  width:88px;
+}
 /* FOOTER */
 
 footer {
