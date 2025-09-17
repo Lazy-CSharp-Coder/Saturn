@@ -267,7 +267,7 @@ p {
   border: 1px solid white;
   padding-left:28px;
   padding-right:178px;
-  top:-1px;
+
 }
 .logoTekstDiv {
   align-items: center;
@@ -276,6 +276,7 @@ p {
 .logoRingeneImg{
   width:88px;
   height: 63px;
+  padding-right: 47px;
 }
 
 .underMenyAnchor {
