@@ -310,12 +310,14 @@ p {
 {
   position: relative;
   width:511px;
-  height:330px;
+  height:128px;
+
 }
 
 .tekstQuestion, .qt {
   position: absolute;
   top:0;
+  left:0;
 }
 .tekstQuestion {
  
