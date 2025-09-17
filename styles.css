@@ -310,22 +310,23 @@ p {
 .bildeTekst
 {
   font-size: 10px;
+  text-align: center;
 }
 
 .tekstQTDiv
 {
-  /* position: relative; */
+  display:grid;
+  width:511px;
+  height: 330px;
+   
 }
 
 .tekstQuestion, .qt {
-  /* position: absolute; */
-  top:0;
-  left:0;
+  
+  grid-column: 1;
+  grid-row:1;
 }
-.tekstQuestion {
- 
 
-}
 .qt {
   font-size: 128px;
   opacity: 0.5;
