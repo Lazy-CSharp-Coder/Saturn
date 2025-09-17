@@ -259,6 +259,7 @@ p {
 .underMenyDiv {
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   font-family: var(--primaryFontFamily);
   align-items: center;
   width:100%;
@@ -269,6 +270,7 @@ p {
 }
 .logoTekstDiv {
   width:461px; 
+  
 }
 
 .logoRingeneImg{
