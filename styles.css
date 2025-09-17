@@ -259,6 +259,7 @@ p {
 .underMenyDiv {
   flex-direction: row;
   justify-content: space-between;
+  font-family: var(--primaryFontFamily);
 }
 
 .underMenyAnchor {
@@ -269,6 +270,7 @@ p {
 {
   list-style-type: none;
   width:484px;
+  gap:37px;
 
 }
 .
