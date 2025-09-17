@@ -375,6 +375,9 @@ p {
 /* maane.html */
 
 .navListMaanene {
+  list-style-type: none;
+  
+  font-size: 32px;
   width:899px;
 }
 
