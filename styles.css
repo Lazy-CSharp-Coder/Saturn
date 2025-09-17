@@ -313,10 +313,15 @@ p {
   text-align: center;
 }
 
-
-.komposisjonSection, .beskrivelseSection, .dannelseSection {
-  flex-direction: column;
+.beskrivelseSection {
   scroll-margin-top:200px;
+  flex-direction: column;
+  align-items: center;
+}
+.komposisjonSection, .dannelseSection {
+  flex-direction: column;
+  align-items: center;
+  scroll-margin-top:220px;
 }
 
 .tekstQTDiv
