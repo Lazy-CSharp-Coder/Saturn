@@ -386,7 +386,11 @@ p {
 
 }
 .maaneSection {
-  
+
+}
+
+.maaneDiv {
+  flex-direction: column;
 }
 /* FOOTER */
 
