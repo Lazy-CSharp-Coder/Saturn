@@ -315,7 +315,8 @@ p {
 
 .tekstQTDiv
 {
-  
+  align-items: center;
+  flex-direction: row;
   position: relative;
   width:1440px;
   height: 500px;
@@ -323,9 +324,8 @@ p {
 }
 .tekstQuestion, .qt {
   
-  grid-column: 1;
-  grid-row:1;
   position:absolute;
+  
   top:0;
 }
 
