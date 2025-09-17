@@ -262,7 +262,7 @@ p {
 
 /* ringene.html klasser */
 .mainRingene {
-  top:0;
+  /* top:-4px; */
 }
 .underMenyDiv {
   flex-direction: row;
@@ -314,14 +314,11 @@ p {
 
 .tekstQTDiv
 {
-  position: relative;
-  width:511px;
-  height:128px;
-
+  /* position: relative; */
 }
 
 .tekstQuestion, .qt {
-  position: absolute;
+  /* position: absolute; */
   top:0;
   left:0;
 }
