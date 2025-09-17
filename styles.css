@@ -316,22 +316,20 @@ p {
 .tekstQTDiv
 {
 
-  position: relative;
+  display: grid;
   /* align-items: center;
   justify-content: center;
   flex-direction: row; */
 
   width:511px;
   height: 330px;
-  background-color: pink;
+  background-color: rgb(192, 79, 98)161, 32, 53);
    
 }
 .tekstQuestion, .qt {
   
-  position:absolute;
-  top:0;
-  left:0;
-  color:#fca75c;
+  grid-area: 1/1;
+  color:#e6ac7b;
   text-align: center;
 
 }
