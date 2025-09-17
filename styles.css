@@ -389,8 +389,9 @@ p {
   
 
 }
-.maaneSection, .enceladusSection {
+.maaneSection {
 
+  flex-direction: column;
   justify-content: space-around;
   align-items:center;
   width: 1350px;
@@ -399,6 +400,10 @@ p {
 
 .maaneDiv {
   flex-direction: column;
+}
+
+.enceladusDiv {
+  flex-direction: row;
 }
 
 
