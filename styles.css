@@ -137,6 +137,12 @@ h2 {
 
 }
 
+h3 {
+  font-family: var(--primaryFontFamily);
+  font-size:64px;
+  color:var(--secondaryTextColor);
+}
+
 p {
   /* font-family: var(--primaryTextFontFamily); */
   font-size:16px;
@@ -298,6 +304,11 @@ p {
 .bildeTekst
 {
   font-size: 10px;
+}
+
+.qt {
+  font-size: 128px;
+  opacity: 0.5;
 }
 
 /* FOOTER */
