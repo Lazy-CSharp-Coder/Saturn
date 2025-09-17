@@ -382,13 +382,15 @@ p {
 }
 
 .maaneImg {
-  width:500px;
+  /* width:500px; */
 
 }
 .maaneSection {
+  align-items: center;
+  justify-content: center;
 
+  width: 1350px;
 }
-
 .maaneDiv {
   flex-direction: column;
 }
