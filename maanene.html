@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="no">
+<!-- head = informasjon til nettleser -->
+
+<head>
+    <title>Hjem</title>
+    <link href="code.png" rel="icon" type="image/png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- External files -->
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+</head>
+<!-- body = informasjon til nettsiden -->
+
+<body class="flex">
+    <header class="flex">
+        <img src="dark_light.png" alt="fant ikke icon" />
+        <nav class="flex headerNav">
+            <ul class="flex navListHeader">
+                <li>
+                    <a href="index.html">Hjem</a>
+                </li>
+                <li>
+                    <a href="om.html">Om</a>
+                </li>
+                <li>
+                    <a href="/ringene.html">Ringene</a>
+                </li>
+                <li>
+                    <a href="#maanene">Månene</a>
+                </li>
+                <li>
+                    <a href="#htmllinkher">Romferdene</a>
+                </li>
+            </ul>
+            <img onclick="hamburgerToggle()" class="hamburgerIcon" src="hamburger.png" alt="Hamburger meny ikon" />
+            <img class="logoSaturnImg" src="logoheader.png" alt="fant ikke logo" />
+        </nav>
+
+    </header>
+
+    <main class="mainRingene">
+        <div class="flex underMenyDiv">
+            <div class="flex logoTekstDiv">
+                <img class="logoRingsImg" src="logoRings.png" alt="fant ikke logo" />
+                <p class="underMenyTekst">Saturns Ringer</p>
+            </div>
+            <nav class="flex ringeneNav">
+                <ul class="flex navListMaanene">
+                    <li>
+                        <a class="underMenyAnchor" href="#generelt">Generelt</a>
+                    </li>
+                    <li>
+                        <a class="underMenyAnchor" href="#mimas">Mimas</a>
+                    </li>
+                    <li>
+                        <a class="underMenyAnchor" href="#rhea">Rhea</a>
+                    </li>
+                    <li>
+                        <a class="underMenyAnchor" href="#tethys">Tethys</a>
+                    </li>
+                    <li>
+                        <a class="underMenyAnchor" href="#dione">Dione</a>
+                    </li>
+                    <li>
+                        <a class="underMenyAnchor" href="#iapetus">Iapetus</a>
+                    </li>
+                    <li>
+                        <a class="underMenyAnchor" href="#enceladus">Enceladus</a>
+                    </li>
+                    <li>
+                        <a class="underMenyAnchor" href="#titan">Titan</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <section id="generelt" class="flex beskrivelseSection">
+            <!-- Hero / Main / Home -->
+
+            <h3>Generelt om månene</h3>
+            <p>
+                Saturn har 274 måner, flere enn noen andre i solsystemet. Men kun syv av disse er kuleformet. De andre
+                månene har for liten tyngdekraft til å opprettholde en slik form. Jeg vil her ta for meg disse syv
+                største.
+
+            </p>
+        </section>>
+        <section id="mimas" class="flex maaneSection">
+          <img class="maaaneImg" src="tem.png" alt="fant ikke bilde" />
+                <p class="bildeTekst"> Oversikt over ringene og månene til Saturn </p>
+            </div>
+            <p>
+                I realiteten er det titusenvis av ringer med ulik bredde og klarhet. Mye av grunnen til dette er
+                påvirkningen ringene får av månene til Saturn.
+                Allikevel er det strukturer i ringene som vi fremdeles ikke har noe forklaring på.
+            </p>
+        </section>
+        <section id="komposisjon" class="flex komposisjonSection">
+            <div class="tekstQTDiv">
+                <h3 class="tekstQuestion"> Hva består ringene av</h3>
+                <p class="qt">?</p>
+            </div>
+
+            <div class="molekylImgText">
+                <img class="molekylImg" src="molekylvann.png" alt="fant ikke bilde" />
+                <p class="bildeTekst"> H2O - ett vannmolekyl . (Figur: Benjah-bmm27, Wikimedia Commons) </p>
+            </div>
+            <p>
+                Saturns ringer består hovedsakelig av is, men også en del støv og stein. Partiklene varierer i størrelse
+                fra et sandkorn til over 10 meter i diameter. Når partiklene i ringene antar en annen omløpsbane, vil de
+                kollidere med hverandre og til slutt bli eliminert. Derfor er ringene rundt Saturn kun 1 km tykke. Når
+                flere og flere partikler samles i ringene, oppstår flere kollisjoner og partiklene minsker i størrelse.
+            </p>
+        </section>
+        <section id="dannelse" class="flex dannelseSection">
+            <div class="tekstQTDiv">
+                <h3 class="tekstQuestion"> Hvordan oppstod ringene</h3>
+                <p class="qt">?</p>
+            </div>
+            <div class="videoText">
+                <video video width="1280" height="720" controls>
+                    <source src="ringsdissapering.mp4" type="video/mp4">
+                    Nettleseren støtter ikke video avspilling
+                </video>
+                <p clasS="bildeTekst">Denne videoen fra NASA utforsker hvordan Saturn mister ringene sine i et raskt
+                    tempo,
+                    og også hva det avslører om planetens historie.
+                </p>
+            </div>
+            <p>
+                Ingen vet med sikkerhet hvordan ringene rundt Saturn oppstod. En teorier at en av månene ble revet i
+                stykker av Saturns gravitasjonsfelt og mesteparten av ringene ble dannet av dette. En annen teori er at
+                ringene er like gamle som Saturn og kommer fra rester av tåken som Saturn ble dannet fram, men nyere
+                forskning tilsier nå at ringene er under 100 millioner år gammel (se video ovenfor).
+            </p>
+            <p>
+                Cassini fant ut under sin ferd på 2000-tallet at mesteparten av E-ringen, den ytterste diffuse ringen,
+                kommer av is og gass som frigis fra månen Enceladus.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer class="flex">
+        <img class="imgLogoKodeloftet" src="kodeloftalpha_hvit.png" alt="fant ikke logo" />
+        <div class="divNASA">
+            <p class="tekstNASA">All pictures taken from NASA </p>
+            <p class="tekstNASA">if not specified otherwise</p>
+        </div>
+        <div class="flex infoAndIconsDiv">
+            <div class="flex minInfoDiv">
+                <p class="tekstWSLaget">Web side laget av</p>
+                <p class="tekstMittNavn">Harald N.</p>
+
+            </div>
+            <a href="mailto:haraldn.kodeloftet@gmail.com" target="_blank"> <img src="email42px.png"
+                    alt="fant ikke icon" /> </a>
+            <a href="https://github.com/Lazy-CSharp-Coder" target="_blank"> <img src="github32px.png"
+                    alt="fant ikke icon" /></a>
+        </div>
+    </footer>
+</body>
+
+</html>
