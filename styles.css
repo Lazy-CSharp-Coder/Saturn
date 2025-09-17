@@ -330,6 +330,9 @@ p {
    
 }
 
+.videoText {
+  padding-bottom: 20px;
+}
 .tekstQuestion, .qt {
   
   grid-column: 1;
