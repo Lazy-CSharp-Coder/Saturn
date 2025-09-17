@@ -260,6 +260,10 @@ p {
   flex-direction: row;
   justify-content: space-between;
   font-family: var(--primaryFontFamily);
+  align-items: center;
+  width:100%;
+  height: 94px;
+  border: 1px solid white;
 }
 
 .underMenyAnchor {
@@ -276,9 +280,7 @@ p {
   gap:37px;
   font-size: 32px;
 }
-.logoRingsImg {
-  width:88px;
-}
+
 /* FOOTER */
 
 footer {
