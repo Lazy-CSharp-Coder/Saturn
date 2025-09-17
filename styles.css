@@ -321,7 +321,7 @@ p {
   justify-content: center;
   flex-direction: row; */
 
-  width:1440px;
+  width:511px;
   height: 330px;
   background-color: pink;
    
@@ -332,13 +332,18 @@ p {
   top:0;
   left:0;
   color:#fca75c;
+  text-align: center;
 
+}
+
+.tekstQuestion {
+  z-index: 2;
 }
 
 .qt {
   font-size: 128px;
   opacity: 0.5;
- 
+  z-index: 1;
 }
 
 .cassiniShadowImgText, .ringeneImgText, .molekylImgText {
