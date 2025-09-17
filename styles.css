@@ -271,6 +271,9 @@ p {
   width:461px; 
 }
 
+.logoRingeneImg{
+  width:88px;
+}
 
 .underMenyAnchor {
   color:var(--secondaryMenuColor);
