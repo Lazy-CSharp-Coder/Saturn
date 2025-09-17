@@ -273,6 +273,8 @@ p {
   border: 1px solid white;
   padding-left:28px;
   padding-right:178px;
+  position:sticky;
+  z-index: 10;
 
 }
 .logoTekstDiv {
