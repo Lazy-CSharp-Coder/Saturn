@@ -267,6 +267,10 @@ p {
   padding-left:28px;
   padding-right:178px;
 }
+.logoTekstDiv {
+  width:461px; 
+}
+
 
 .underMenyAnchor {
   color:var(--secondaryMenuColor);
