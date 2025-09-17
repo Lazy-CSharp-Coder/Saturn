@@ -267,9 +267,10 @@ p {
   border: 1px solid white;
   padding-left:28px;
   padding-right:178px;
+  top:-1px;
 }
 .logoTekstDiv {
-  
+  align-items: center;
 }
 
 .logoRingeneImg{
