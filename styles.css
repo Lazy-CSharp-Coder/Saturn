@@ -383,21 +383,25 @@ p {
 
 .maaneImg {
   
-  width:  500px;
+  width:  550px;
+  padding-top: 170px;
   
   
 
 }
-.maaneSection {
+.maaneSection, .enceladusSection {
 
   justify-content: space-around;
   align-items:center;
   width: 1350px;
+  gap:82px;
 }
+
 .maaneDiv {
   flex-direction: column;
-  align-items: center;
 }
+
+
 /* FOOTER */
 
 footer {
