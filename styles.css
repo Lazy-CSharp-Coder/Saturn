@@ -212,7 +212,7 @@ li {
   height:420px;
 }
 
-.sitatPP
+.quotePP
 {
   font-family: "Gentium Plus";
   font-style: italic;
@@ -239,22 +239,22 @@ li {
   padding-bottom: 109px;
 }
 
-.faktaKategorierDiv, .faktaSaturnDiv {
+.textFactCategorysDiv, .textFactsSaturnDiv {
   flex-direction: column;
   font-family: var(--primaryTextFontFamily);
   font-size: 14px;
   width:auto;
   
 }
-.faktaKategorierDiv {
+.textFactCategorysDiv {
   font-weight: bold;
 
 }
-.faktaSaturnDiv {
+.textFactsSaturnDiv {
   font-weight: normal;
 }
 
-.faktaKategorier, .faktaSaturn {
+.textFactCategorys, .textFactsSaturn {
   margin: 0;
   width:auto;
 }
@@ -263,7 +263,7 @@ li {
 
   color:var(--linkColor);
 }
-.sitatCarolyn
+.quoteCarolyn
 {
   width:845px;
   text-align: center;
