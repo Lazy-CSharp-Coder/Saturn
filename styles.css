@@ -125,7 +125,7 @@ main {
   margin-bottom:52px;
   flex-direction: column;
   align-items: center;
-
+  width:100vw;
 }
 
 h1 {
