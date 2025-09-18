@@ -417,14 +417,21 @@ li {
   
 }
 
-.moonImg, .enceladusImg {
+.moonImg, .enceladusImg1, .enceladusImg2 {
   width:550px;
 }
 .moonImg {
   padding-top: 170px;
 }
 
-.enceladusImg {
+.enceladusImg1 {
+
+  padding-top: 175px;
+
+}
+
+
+.enceladusImg2 {
   padding:0;
 }
 
