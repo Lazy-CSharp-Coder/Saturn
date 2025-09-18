@@ -361,17 +361,17 @@ li {
 }
 
 .questionText {
-  
-  
+    
   width:auto;
   font-family: var(--primaryFontFamily);
   font-size:64px;
-  color:#e6ac7b;
-
 }
 
 .questionImage {
   opacity:0.5;      
+}
+
+.moleculeImg {
 
 
 }
