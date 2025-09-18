@@ -68,6 +68,7 @@ header {
   --primaryBackgroundColor:rgb(220, 220, 220);
   --primaryTextColor:black;
   --secondaryTextColor:black;
+  .heroImg { box-shadow: 5px 5px 15px 13px #000000; }
 }
 
 .lightModeImages {
@@ -335,6 +336,7 @@ li {
   margin:0;
   padding:0;
   width:auto;
+  color:white;
 }
 .navListRingene
 {
