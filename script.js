@@ -22,7 +22,7 @@ function darkLightModeToggle()
   console.log("hi from darkLight mode");
   
   const mainElement = document.querySelector(".mainClass");
-  const imgElements = document.querySelector("imgClass");
+  const imgElements = document.querySelector(".imgClass");
   if(darkMode)
   {
     mainElement.classList.add("lightMode");
