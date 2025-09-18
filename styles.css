@@ -265,7 +265,7 @@ p {
 
 /* ringene.html klasser */
 .mainRingene {
-  /* top:-4px; */
+  border-top:0;
 }
 .underMenyDiv {
   flex-direction: row;
@@ -274,7 +274,13 @@ p {
   font-family: var(--primaryFontFamily);
   width:100%;
   height: 94px;
-  border: 1px solid white;
+  border-top:0px;
+  border-left:1px;
+  border-right:1px;
+  border-bottom:1px;
+  border-width: 1px;
+  border-color:white;
+  border-style: solid;
   padding-left:28px;
   padding-right:178px;
   position:sticky;
@@ -304,8 +310,7 @@ p {
 .navListRingene
 {
   list-style-type: none;
-  width:484px;
-  gap:37px;
+    gap:37px;
   font-size: 32px;
 }
 
