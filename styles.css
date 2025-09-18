@@ -344,29 +344,36 @@ li {
 
 .textQuestionDiv
 {
-
   position: relative;
-  width:611px;
-  height: 330px;
-  background-color: rgb(192, 79, 98);
+  width:511px;
+  height: 186px; 
+  justify-content: center;
+  align-items:center;
+  
    
 }
-.textQuestion {
-  
+
+.questionText, questionImage {
   display:flex;
   align-items:center;
+  justify-content: center;
   position:absolute;
-  top:0; 
-  left:0; 
+}
+
+.questionText {
+  
+  
+  width:auto;
+  font-family: var(--primaryFontFamily);
+  font-size:64px;
   color:#e6ac7b;
 
 }
 
 .questionImage {
   opacity:0.5;      
-  position:absolute;
-  top:0;
-  left:0;
+
+
 }
 
 .cassiniShadowImgText, .ringeneImgText, .molekylImgText {
