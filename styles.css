@@ -415,14 +415,14 @@ p {
   
 }
 
+.maaneImg, .enceladusImg {
+  width:550px;
+}
 .maaneImg {
-  
-  width:  550px;
   padding-top: 170px;
 }
 
-.encMaaneImg {
-  width: 550px;
+.enceladusImg {
   padding:0;
 }
 
@@ -456,21 +456,18 @@ p {
   gap:82px;
 }
 
-.titanSection, .titanImgTekst {
+.titanSection, .titanImgText {
   flex-direction: column;
   align-items: center;
 
 }
 
-.titanImgTekst {
-
-
+.titanImgText {
   padding-bottom: 40px;
-  
 
 }
 
-.titanKjerneImg {
+.titanCoreImg {
   padding-top: 40px;
   padding-bottom: 40px;
 
