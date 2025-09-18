@@ -435,6 +435,7 @@ p {
 
 .enceladusSection {
   flex-direction: column;
+ 
 }
 .maaneDiv {
   flex-direction: column;
@@ -443,6 +444,7 @@ p {
 .enceladusDiv {
   flex-direction: row;
   padding-bottom:110px;
+  gap:82px;
 }
 
 .titanSection {
@@ -453,6 +455,7 @@ p {
 .titanImgTekst {
 
   padding-bottom: 40px;
+  align-items: center;
 
 }
 
