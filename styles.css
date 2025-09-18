@@ -122,6 +122,7 @@ main {
   color:var(--primaryTextColor);
   font-family: var(--primaryTextFontFamily);
   margin-bottom:52px;
+
 }
 
 h1 {
