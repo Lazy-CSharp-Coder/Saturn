@@ -133,7 +133,7 @@ a {
 
 main {
   flex-grow: 1;
-  
+
   color:var(--primaryTextColor);
   font-family: var(--primaryTextFontFamily);
   margin-bottom:52px;
@@ -165,6 +165,7 @@ p {
   /* font-family: var(--primaryTextFontFamily); */
   font-size:16px;
   width:744px;
+  color:var(--primaryTextColor);
 }
 
 li {
