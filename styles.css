@@ -64,7 +64,7 @@ header {
 }
 
 .lightMode {
-  --primaryBackgroundColor:white;
+  --primaryBackgroundColor:rgb(220, 220, 220);
   --primaryTextColor:black;
   --secondaryTextColor:black;
 }
