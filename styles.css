@@ -422,6 +422,11 @@ p {
   width: 550px;
   padding:0;
 }
+
+.maaneSection, .enceladusSection, .titanSection {
+  scroll-margin-top: 220px;
+}
+
 .maaneSection {
 
   flex-direction: row;
@@ -431,6 +436,7 @@ p {
   gap:82px;
   align-self: center;
   padding-bottom: 120px;
+
 }
 
 .enceladusSection {
@@ -447,15 +453,17 @@ p {
   gap:82px;
 }
 
-.titanSection {
+.titanSection, .titanImgTekst {
   flex-direction: column;
   align-items: center;
+
 }
 
 .titanImgTekst {
 
+
   padding-bottom: 40px;
-  align-items: center;
+  
 
 }
 
