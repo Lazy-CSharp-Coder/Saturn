@@ -238,6 +238,7 @@ li {
   flex-direction: column;
   font-family: var(--primaryTextFontFamily);
   font-size: 14px;
+  width:auto;
   
 }
 .faktaKategorierDiv {
@@ -510,12 +511,12 @@ footer {
   justify-content: space-between;
   align-items:center;
   height:94px;
-  padding-left: 28px;
-  padding-right: 28px;
+   
 } 
 
 .imgLogoKodeloftet {
   width:120px;
+  padding-left: 28px;
 
 }
 .textNASA, .textWSCreated, .textMyName {
@@ -537,14 +538,14 @@ footer {
 .myInfoDiv {
   flex-direction: column;
   justify-content: center;
-  padding-right:36px;
+
 }
 
 .infoAndIconsDiv {
   flex-direction: row;
   align-items: center;
   gap:10px;
-
+  padding-right:36px;
 }
 
 
