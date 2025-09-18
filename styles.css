@@ -265,14 +265,14 @@ p {
 
 /* ringene.html klasser */
 .mainRingene {
-  border-top:0;
+  /* border-top:0; */
 }
 .underMenyDiv {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   font-family: var(--primaryFontFamily);
-  width:100%;
+  /* width:100%; */
   height: 94px;
   border-top:0px;
   border-left:1px;
@@ -284,7 +284,7 @@ p {
   padding-left:28px;
   padding-right:178px;
   position:sticky;
-  top:106px;
+  /* top:106px; */
   background-color: black;
   z-index: 10;
 
