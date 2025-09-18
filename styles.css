@@ -329,25 +329,25 @@ p {
 .tekstQTDiv
 {
 
-  /* display: grid;
+  display: grid;
   /* align-items: center;
   justify-content: center;
   flex-direction: row; */
-  position: relative;
-  width:1511px;
+  /* position: relative; */
+  width:611px;
   height: 330px;
   background-color: rgb(192, 79, 98);
    
 }
 .tekstQuestion, .qt {
   
-  /* grid-column: 1;
-  grid-row:1; */
-  position:absolute;
-  top:0;
-  left:0;
+   grid-column: 1;
+  grid-row:1; 
+  /* position:absolute; */
+  /* top:0; */
+  /* left:0; */
   color:#e6ac7b;
-  text-align: center;
+S
 
 }
 
