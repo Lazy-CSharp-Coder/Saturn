@@ -67,10 +67,11 @@ a {
 
   font-family: var(--primaryFontFamily);
   font-size: 32px;
-  justify-content: space-between;
-  padding:0;
+  padding-left:0;
+  gap:41px;
+
   list-style-type: none;
-  width:588px;
+  
   
   
 }
