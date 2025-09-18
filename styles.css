@@ -39,7 +39,7 @@ body {
 header {
   
   background-color: black;   /* svart her, ikke variabel, skal alltid være svart */
-  width:100vw;
+  width:100%;
   justify-content: space-between;
   align-items: center;
   position: sticky;
@@ -279,7 +279,7 @@ li {
   justify-content: space-between;
   align-items: center;
   font-family: var(--primaryFontFamily);
-  width:100vw;
+  width:100%;
   height: 94px;
   border-top:1px;
   border-left:1px;
@@ -406,7 +406,7 @@ li {
   justify-content: space-between;
   align-items: center;
   font-family: var(--primaryFontFamily);
-  width:100vw;
+  width:100%;
   height: 94px;
   border: 1px solid white;
   /* padding-left:28px;
