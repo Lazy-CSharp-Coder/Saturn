@@ -69,7 +69,7 @@ header {
   --primaryTextColor:black;
   --secondaryTextColor:black;
   .heroImg { box-shadow: 5px 5px 15px 13px #000000; 
-  display: none;}
+  }
 }
 
 .lightModeImages {
