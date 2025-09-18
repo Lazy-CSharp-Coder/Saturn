@@ -225,12 +225,12 @@ li {
 }
 
 .imageAndQuoteDiv {
-  width: 1016px;
+  gap:221px;
   padding-bottom: 43px;
 }
 
 .imageAndStatsDiv {
-  width: 1244px;
+  gap:110px;
   padding-bottom: 109px;
 }
 
