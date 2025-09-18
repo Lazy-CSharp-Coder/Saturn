@@ -405,6 +405,7 @@ p {
 }
 
 .genereltManneneSection {
+  flex-direction: column;
   padding-bottom:50px;
 }
 
