@@ -412,6 +412,7 @@ p {
 }
 
 .genereltListItem {
+  padding-left:0px;
   padding-right:41px;
 }
 
