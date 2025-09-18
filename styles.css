@@ -272,7 +272,6 @@ p {
   justify-content: space-between;
   align-items: center;
   font-family: var(--primaryFontFamily);
-  align-items: center;
   width:100%;
   height: 94px;
   border: 1px solid white;
@@ -377,9 +376,30 @@ p {
 
 /* maane.html */
 
+.underMenyMaaneneDiv {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--primaryFontFamily);
+  width:100%;
+  height: 94px;
+  border: 1px solid white;
+  padding-left:28px;
+  /* padding-right:178px; */
+  position:sticky;
+  top:106px;
+  background-color: black;
+  z-index: 10;
+
+}
+
+.genereltListItem {
+  padding-right:41px;
+}
+
 .navListMaanene {
   list-style-type: none;
-  
+  gap:25px;  
   font-size: 32px;
   width:899px;
 }
@@ -402,6 +422,7 @@ p {
   width: 1350px;
   gap:82px;
   align-self: center;
+  padding-bottom: 120px;
 }
 
 .enceladusSection {
@@ -413,10 +434,12 @@ p {
 
 .enceladusDiv {
   flex-direction: row;
+  padding-bottom:110px;
 }
 
 .titanSection {
   flex-direction: column;
+  align-items: center;
 }
 
 /* FOOTER */
