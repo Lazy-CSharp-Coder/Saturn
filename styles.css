@@ -342,43 +342,31 @@ li {
   scroll-margin-top:220px;
 }
 
-.tekstQTDiv
+.textQuestionDiv
 {
 
-  /* display: grid; */
-  /* align-items: center;
-  justify-content: center;
-  flex-direction: row; */
   position: relative;
   width:611px;
   height: 330px;
   background-color: rgb(192, 79, 98);
    
 }
-.tekstQuestion {
+.textQuestion {
   
-
   display:flex;
   align-items:center;
-  /* position:absolute; */
-  /* top:0; */
-  /* left:0; */
+  position:absolute;
+  top:0; 
+  left:0; 
   color:#e6ac7b;
 
 }
 
-.qt {
-  z-index: 2;
+.questionImage {
+  opacity:0.5;      
   position:absolute;
   top:0;
   left:0;
- 
-}
-
-.qt {
-  font-size: 128px;
-  opacity: 0.5;
-  z-index: 1;
 }
 
 .cassiniShadowImgText, .ringeneImgText, .molekylImgText {
