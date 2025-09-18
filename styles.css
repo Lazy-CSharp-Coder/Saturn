@@ -68,13 +68,15 @@ header {
   --primaryBackgroundColor:rgb(220, 220, 220);
   --primaryTextColor:black;
   --secondaryTextColor:black;
-  .lightModeImg { box-shadow: 5px 5px 15px 13px #000000; 
+  .lightModeImg {   box-shadow: 5px 5px 15px 17px rgba(0,0,0,0.49);
+    /* box-shadow: 5px 5px 15px 13px #000000;  */
   }
+  .linkWikiPage { color:darkred; }
 }
 
 .lightModeImages {
 
-  box-shadow: 5px 5px 15px 17px rgba(0,0,0,0.49);
+
 }
 
 a {
