@@ -55,7 +55,12 @@ header {
   align-items: center;
   justify-content: space-between;
   gap:30px;  
-  
+  padding-right:23px;
+   
+}
+
+.darkLightIcon {
+  padding-left:23px;
 }
 
 a {
