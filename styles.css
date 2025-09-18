@@ -450,8 +450,10 @@ p {
   align-items: center;
 }
 
-.titamImg {
-  
+.titamImgTekst {
+  padding-top:40px;
+  padding-bottom: 40px;
+
 }
 
 
