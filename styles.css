@@ -411,6 +411,9 @@ p {
   flex-direction: row;
 }
 
+.titanSection {
+  flex-direction: column;
+}
 
 /* FOOTER */
 
