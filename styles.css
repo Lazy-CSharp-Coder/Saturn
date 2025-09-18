@@ -404,8 +404,10 @@ p {
   width:899px;
 }
 
-.genereltManneneSection {
+.genereltMaaneSection {
+  scroll-margin-top:200px;
   flex-direction: column;
+  align-items: center;
   padding-bottom:50px;
 }
 
