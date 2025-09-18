@@ -373,6 +373,8 @@ p {
 
 .videoText {
   padding-bottom: 20px;
+  flex-direction: column;
+  align-items:center;
 }
 
 /* maane.html */
