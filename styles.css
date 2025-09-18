@@ -111,7 +111,7 @@ a {
     justify-content: flex-end;
   }
 
-  .navList {
+  .navListHeader {
     display: none;
   }
 
@@ -126,13 +126,13 @@ a {
 
 main {
   flex-grow: 1;
-  /* background-color: var(--primaryBackgroundColor); */
+
   color:var(--primaryTextColor);
   font-family: var(--primaryTextFontFamily);
   margin-bottom:52px;
   flex-direction: column;
   align-items: center;
-  /* width:100vw; */
+
 }
 
 h1 {
