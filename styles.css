@@ -377,7 +377,7 @@ li {
 
 }
 
-.cassiniShadowImgText, .ringeneImgText, .molekylImgText {
+.cassiniShadowImgText, .ringsImgText, .moleculeImgText {
   flex-direction: column;
   align-items: center;
 
