@@ -30,9 +30,7 @@ function darkLightModeToggle()
     darkMode = false;
   }
   else
-  // { imgElements.classList.remove("lightModeImages");
-    mainElement.classList.remove("lightMode");
-    darkMode = true;
-  }
-
+  {  mainElement.classList.remove("lightMode");
+     darkMode = true;
+   }
 }
