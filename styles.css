@@ -23,13 +23,13 @@
 
   display: flex;
 }
+
 /* BODY */
 body {
-  margin: 0;
-  
+
+ 
   height:100%;
   margin:0;
-
   flex-direction: column;
   min-height: 100vh; 
   background-color: var(--primaryBackgroundColor);
@@ -39,7 +39,6 @@ body {
 header {
   
   background-color: black;   /* svart her, ikke variabel, skal alltid være svart */
-
   width:100vw;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +68,7 @@ a {
   font-family: var(--primaryFontFamily);
   font-size: 32px;
   justify-content: space-between;
-
+  padding:0;
   list-style-type: none;
   width:588px;
   
@@ -156,7 +155,7 @@ p {
 }
 
 li {
-  padding-left:0;
+  padding:0;
 }
 .section {
   flex-direction: row;
