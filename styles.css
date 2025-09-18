@@ -341,13 +341,12 @@ p {
 }
 .tekstQuestion, .qt {
   
-   grid-column: 1;
+  grid-column: 1;
   grid-row:1; 
   /* position:absolute; */
   /* top:0; */
   /* left:0; */
   color:#e6ac7b;
-S
 
 }
 
