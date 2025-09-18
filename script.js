@@ -15,3 +15,9 @@ function hamburgerToggle() {
 
 // Gjør funksjonen tilgjengelig i globalt scope slik at den kan brukes i inline onclick-egenskaper.
 //globalThis.hamburgerToggle = hamburgerToggle;
+
+function darkLightModeToggle() {
+  console.log("hi from darkLight mode");
+
+  
+}
