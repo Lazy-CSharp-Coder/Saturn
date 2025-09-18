@@ -329,20 +329,23 @@ p {
 .tekstQTDiv
 {
 
-  display: grid;
+  /* display: grid;
   /* align-items: center;
   justify-content: center;
   flex-direction: row; */
-
-  width:511px;
+  position: relative;
+  width:1511px;
   height: 330px;
   background-color: rgb(192, 79, 98);
    
 }
 .tekstQuestion, .qt {
   
-  grid-column: 1;
-  grid-row:1;
+  /* grid-column: 1;
+  grid-row:1; */
+  position:absolute;
+  top:0;
+  left:0;
   color:#e6ac7b;
   text-align: center;
 
@@ -350,15 +353,13 @@ p {
 
 .tekstQuestion {
   z-index: 2;
-  margin: 0;
-  padding:0
+ 
 }
 
 .qt {
   font-size: 128px;
   opacity: 0.5;
   z-index: 1;
- 
 }
 
 .cassiniShadowImgText, .ringeneImgText, .molekylImgText {
