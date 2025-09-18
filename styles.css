@@ -63,6 +63,13 @@ header {
   padding-left:23px;
 }
 
+.lightMode {
+  --primaryBackgroundColor:white;
+  --primaryTextColor:black;
+  --secondaryTextColor:black;
+}
+
+
 a {
   color:var(--primaryMenuColor);
   text-decoration: none;
