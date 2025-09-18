@@ -39,7 +39,7 @@ body {
 header {
   
   background-color: black;   /* svart her, ikke variabel, skal alltid være svart */
-  display: flex;
+
   width:100vw;
   justify-content: space-between;
   align-items: center;
@@ -296,7 +296,7 @@ p {
 .logoTekstDiv {
   align-items: center;
   gap:47px;
-  /* padding-left:28px; */
+  padding-left:28px;
 }
 
 .logoRingeneImg{
@@ -317,8 +317,8 @@ p {
   list-style-type: none;
     gap:37px;
   font-size: 32px;
-  /* padding-left:0; */
-  /* padding-right:178px; */
+  padding-left:0;
+  padding-right:178px;
 }
 
 .bildeTekst
