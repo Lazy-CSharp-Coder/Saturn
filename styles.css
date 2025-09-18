@@ -74,7 +74,7 @@ header {
 
 .lightModeImages {
 
-  box-shadow: 5px 5px 15px 13px #000000;
+  box-shadow: 5px 5px 15px 17px rgba(0,0,0,0.49);
 }
 
 a {
@@ -379,7 +379,7 @@ li {
    
 }
 
-.questionText, questionImage {
+.questionText, .questionImage {
   display:flex;
   align-items:center;
   justify-content: center;
