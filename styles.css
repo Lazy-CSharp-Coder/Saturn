@@ -398,6 +398,7 @@ p {
   align-items:center;
   width: 1350px;
   gap:82px;
+  align-self: center;
 }
 
 .enceladusSection {
