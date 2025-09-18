@@ -177,7 +177,7 @@ p {
   padding-top:108px;
 
 }
-.sitatJK {
+.quoteJK {
   font-family: "Italianno";
   font-size:36px;
   width:525px;
@@ -185,7 +185,7 @@ p {
   margin:0;
 }
 
-.sitatKreditasjon {
+.quoteCrediting {
   font-family: var(--primaryTextFontFamily);
   font-size:12px;
   margin:0;
@@ -515,23 +515,23 @@ footer {
   width:120px;
 
 }
-.tekstNASA, .tekstWSLaget, .tekstMittNavn {
+.textNASA, .textWSCreated, .textMyName {
   margin: 0;
   padding: 0;
   width: auto;
 }
 
-.tekstNASA {
+.textNASA {
   text-decoration: underline;    
   text-align: center;
 }
 
-.tekstMittNavn {
+.textMyName {
    color: #EE7700;
 
 }
 
-.minInfoDiv {
+.myInfoDiv {
   flex-direction: column;
   justify-content: center;
   padding-right:36px;
