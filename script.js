@@ -26,7 +26,7 @@ function darkLightModeToggle()
   if(darkMode)
   {
     mainElement.classList.add("lightMode");
-    // imgElements.classList.add("ligthModeImages");
+    imgElements.classList.add("ligthModeImages");
     darkMode = false;
   }
   else
