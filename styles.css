@@ -399,11 +399,11 @@ p {
   justify-content: space-between;
   align-items: center;
   font-family: var(--primaryFontFamily);
-  width:100%;
+  width:100vw;
   height: 94px;
   border: 1px solid white;
-  padding-left:28px;
-  padding-right:26px;
+  /* padding-left:28px;
+  padding-right:26px; */
   position:sticky;
   top:106px;
   background-color: black;
@@ -419,7 +419,8 @@ p {
   list-style-type: none;
   gap:25px;  
   font-size: 32px;
-  width:899px;
+  padding-left:0px;
+  padding-right:26px;
 }
 
 .genereltMaaneSection {
