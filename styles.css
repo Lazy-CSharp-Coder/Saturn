@@ -279,7 +279,7 @@ li {
 .mainRingene {
   /* border-top:0; */
 }
-.underMenyDiv {
+.subMenuDiv {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -294,7 +294,7 @@ li {
   z-index: 10;
 
 }
-.logoTekstDiv {
+.logoTextDiv {
   align-items: center;
   gap:47px;
   padding-left:28px;
@@ -306,11 +306,11 @@ li {
  
 }
 
-.underMenyAnchor {
+.subMenuAnchor {
   color:var(--secondaryMenuColor);
 }
 
-.underMenyTekst {
+.subMenuText {
   font-size:60px;
   margin:0;
   padding:0;
