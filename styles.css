@@ -395,22 +395,6 @@ li {
 
 /* maane.html */
 
-.underMenyMaaneneDiv {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--primaryFontFamily);
-  width:100%;
-  height: 94px;
-  border: 1px solid white;
-  /* padding-left:28px;
-  padding-right:26px; */
-  position:sticky;
-  top:106px;
-  background-color: black;
-  z-index: 10;
-
-}
 
 .genereltListItem {
   padding-left:0px;
@@ -425,7 +409,7 @@ li {
   padding-right:26px;
 }
 
-.genereltMaaneSection {
+.genereltSection {
   scroll-margin-top:200px;
   flex-direction: column;
   align-items: center;
