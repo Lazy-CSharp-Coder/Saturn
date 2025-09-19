@@ -535,6 +535,9 @@ li {
   padding-right:178px;
 }
 
+.subMenuBurger {
+  display: none;
+}
 .textImage
 {
   font-size: 10px;
@@ -601,6 +604,19 @@ li {
   padding-top: 40px;
   flex-direction: column;
   align-items:center;
+}
+
+@media (max-width:426px) {
+
+  /* p og h2 satt i forrige media query */
+
+  .subMenuText {
+    font-size: 40px;
+  }
+  .subMenuBurger {
+    display:flex;
+    color:var(--secondaryMenuColor);
+  }
 }
 
 /* maane.html */
