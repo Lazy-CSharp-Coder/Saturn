@@ -412,6 +412,7 @@ li {
   }
   .headingAndQuoteDiv {
     gap:0;
+    align-items: column;
   }
   .omImg { 
     display:none; 
