@@ -616,8 +616,18 @@ li {
     font-size: 40px;
   }
   .subMenuBurger {
-    display:flex;
+    display:none;
     color:var(--secondaryMenuColor);
+  }
+
+  .logoRingeneImg {
+    width:85px;
+    height:61px;
+  }
+
+  .subMenuTextAndBurgerDiv {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
