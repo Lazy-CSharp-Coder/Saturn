@@ -402,6 +402,14 @@ li {
 
 @media (max-width:426px) {
 
+  h2 {
+    font-size:48px;
+   }
+
+  .quotePP {
+    font-size:12px;
+  }
+
   .omImg { 
     display:none; 
   }
@@ -409,6 +417,10 @@ li {
     display:flex;
     width:136px;
     height:121px;
+  }
+
+  .textFactCategorysDiv {
+    font-size: 10px;
   }
 }
 
