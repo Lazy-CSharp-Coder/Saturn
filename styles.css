@@ -835,7 +835,21 @@ li {
 
 }
 
+@media (max-width:426) {
+  .genereltListItem {
+     padding: 0;
 
+  }
+
+ 
+  .navListMaanene {
+    list-style-type: none;
+    gap:3px;  
+    font-size: 19px;
+    padding:12px 12px 12px 12px;
+    
+  }
+}
 
 /* FOOTER */
 
