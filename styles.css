@@ -45,6 +45,7 @@ header {
   position: sticky;
   top: 0;
   border: 1px solid var(--borderColorMenu);
+  z-index: 10;
 
 
 }
@@ -96,7 +97,7 @@ a {
   padding-left:0;
   gap:41px;
   list-style-type: none;
-  z-index: 11;
+
    
   
 }
@@ -670,6 +671,8 @@ li {
 
   .video {
     width:420px;
+   
+    
   }
 }
 
