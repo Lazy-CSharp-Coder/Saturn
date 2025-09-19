@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="no">
+<!-- head = informasjon til nettleser -->
+
+<head>
+    <title>Hjem</title>
+    <link href="code.png" rel="icon" type="image/png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- External files -->
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+</head>
+<!-- body = informasjon til nettsiden -->
+
+<body class="flex">
+    <header class="flex">
+        <img onclick="darkLightModeToggle()" class="darkLightIcon" src="dark_light.png" alt="fant ikke icon" />
+        <nav class="flex headerNav">
+            <ul id="headerMenu" class="flex navListHeader hidden">
+                <li>
+                    <a href="/index.html">Hjem</a>
+                </li>
+                <li>
+                    <a href="/om.html">Om</a>
+                </li>
+                <li>
+                    <a href="/ringene.html">Ringene</a>
+                </li>
+                <li>
+                    <a href="/maanene.html">Månene</a>
+                </li>
+                <li>
+                    <a href="#htmllinkher">Romferdene</a>
+                </li>
+                <hr class="hamburgerLine">
+                <li class="darkLightListItem"> </li>
+                <li onclick="darkLightModeToggle()" class="darkLightListItem">D/L Lysmodus</li>
+
+            </ul>
+            <img onclick="hamburgerToggle()" class="hamburgerIcon" src="hamburger.png" alt="Hamburger meny ikon" />
+            <img class="logoSaturnImg" src="logoheader.png" alt="fant ikke logo" />
+
+        </nav>
+
+    </header>
+
+    <main class="mainClass">
+        <div class="flex subMenuDiv">
+            <div class="flex logoTextDiv">
+                <img class="logoRingsImg" src="logoRings.png" alt="fant ikke logo" />
+                <div class="flex subMenuTextAndBurgerDiv">
+                    <p class="subMenuText">Saturns Ringer</p>
+                    <p onclick="subMenuToggle()" class="subMenuBurger">Meny</p>
+                </div>
+            </div>
+            <nav class="flex ringeneNav">
+                <ul id="subMenu" class="flex navListRomferdene hidden">
+                    <li>
+                        <a class="subMenuAnchor" href="#pioneer11">Pioneer 11</a>
+                    </li>
+                    <li>
+                        <a class="subMenuAnchor" href="#voyager1">Voyager 1</a>
+                    </li>
+                    <li>
+                        <a class="subMenuAnchor" href="#voyager2">Voyager 2</a>
+                    </li>
+                    <li>
+                        <a class="subMenuAnchor" href="#cassini">Cassini/Hyguens</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+        </div>
+
+        <section id="pioneer11" class="flex romferdSection">
+            <!-- Hero / Main / Home -->
+
+            <h3>Pioneer 11 (1979)</h3>
+            <div class="flex pioneerImgTexDiv">
+                <img class="pioneerImg lightModeImg" src="/Images/pioneer.png" alt="fant ikke bilde" />
+                <p class="textImage">
+                    Pioneer 11 på vei mot Saturn - Maleri av Hurley Wilson
+                </p>
+            </div>
+            <p> Pioneer 11 ble skutt opp 6. april 1973 </p>
+            <p>
+                NASA Pioneer 11 var den først sonden som tok Saturn i nærmere øyesyn. Vi fikk den første detaljerte syn
+                på ringene og månene. Pioneer 11 kunne også bekrefte at forskernes antagelser angående Titans størrelse
+                og masse, var riktige. Den oppdaget two nye måner, Janus og Epimetheus.
+            </p>
+
+        </section>
+        <section id="voyager1" class="flex romferdSection">
+            <div class="flex voyager1ImgText">
+                <img class="voyager1Img lightModeImg" src="/Images/voyager1.png" alt="fant ikke bilde" />
+                <p class="textImage"> Voyager I på vei ut av solsystemet og inn i interstellart rom (artist rendering)
+                </p>
+            </div>
+            <p>
+                Voyager I ble skutt opp 5. september 1977. </p>
+            <p>
+                Hovedmålet til Voyager 1 var å utforske de ytre planetene Jupiter og Saturn. Den passerte Saturn i
+                november 1980. Den oppdaget to nye måner, Thebe og Metis, samt en av ringene, G-ringen. Den oppdaget
+                også komplekse strukturer i ringene, hvor bla. den oppdaget "shepherd moons", måner som holdt strukturen
+                i noen av ringene under "kontroll". Den fant også ut at Titans atmosfære bestod mest av nitrogen.
+            </p>
+            <p>
+                Voyager 1 passerte Pioneer 10 (skutt opp 2. mars, 1972) 17. februar 1998. Den 12. august 2012 gikk
+                sonden ut av solsystemet vårt og ble det første menneskeskapte fartøyet i interstellart rom.
+            </p>
+        </section>
+        <section id="voyager2" class="flex romferdSection">
+            <div class="flex voyager2ImgText">
+                <img class="voyager2Img lightModeImg" src="/Images/voyager2.png" alt="fant ikke bilde" />
+                <p class="textImage">Testing av Voyager 2 </p>
+            </div>
+            <p>
+                Den ble skutt opp 20. august 1977 og passerte Saturn i august 1981. Den fløy 23 000 km nærmere Saturn
+                enn Voyager 1 og sendte tilbake mer detaljerte data om ringene. Den ble under forbiflyvningen truffet av
+                mikro-støv, noe som medførte at stabiliseringmotorene måtte avfyres flere ganger. Den tok flere bilder
+                av månene, blant annet Enceladus og Tethys. Den tok også målinger av temperaturen på Saturn. Flere av
+                Saturns måner ble oppdaget av Voyager 2.
+            </p>
+            <p>
+                Voyager 2 gikk over i interstellart rom 5. november 2018.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="flex">
+        <img class="logoKodeloftetImg" src="kodeloftalpha_hvit.png" alt="fant ikke logo" />
+        <div class="divNASA">
+            <p class="textNASA">All pictures taken from NASA </p>
+            <p class="textNASA">if not specified otherwise</p>
+        </div>
+        <div class="flex infoAndIconsDiv">
+            <div class="flex myInfoDiv">
+                <p class="textWSCreated">Web side laget av</p>
+                <p class="textMyName">Harald N.</p>
+
+            </div>
+            <a href="https://mailto:haraldn.kodeloftet@gmail.com" target="_blank"> <img src="email42px.png"
+                    alt="fant ikke icon" /> </a>
+            <a href="https://github.com/Lazy-CSharp-Coder" target="_blank"> <img src="github32px.png"
+                    alt="fant ikke icon" /></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
