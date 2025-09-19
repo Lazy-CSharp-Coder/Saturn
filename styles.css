@@ -644,8 +644,19 @@ li {
     gap:0px;
   }
 
+  .cassiniShadowImgText, .ringsImgText, .moleculeImgText {
+    flex-direction: column;
+    align-items: center;
+  
+    padding-bottom: 32px;
+    padding-top: 32px;
+     
+  }
+
+
   .cassiniShadowImg {
     width:408px;
+    
   }
   .ringSystemImg {
     width: 396px;
@@ -669,10 +680,11 @@ li {
     width:59px;
   }
 
+
   .video {
     width:420px;
-   
-    
+    height:368px;
+      
   }
 }
 
