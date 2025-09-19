@@ -85,6 +85,7 @@ a {
 
 .navListHeader {
 
+  flex-direction: row;
   font-family: var(--primaryFontFamily);
   font-size: 32px;
   padding-left:0;
