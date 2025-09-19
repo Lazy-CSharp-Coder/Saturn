@@ -215,6 +215,25 @@ li {
   padding-top:19px;
   width: auto;
 }
+
+@media (max-width: 426px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  .heroImg {
+    width: 325px;
+  }
+
+  .quoteJK {
+    font-size: 24px;
+  }
+
+  .quoteCrediting {
+    font-size: 10px;
+  }
+
+}
 /* om.html klasser */
 
 .omSection {
