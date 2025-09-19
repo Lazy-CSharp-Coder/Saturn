@@ -133,9 +133,7 @@ a {
   }
 
   .navListHeader {
-    display: flex;
-    flex-direction: column;
-    
+    display: none;
   }
 
   .hamburgerIcon {
@@ -146,6 +144,13 @@ a {
   .logoSaturnImg {
   
 
+  }
+
+  .show {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
   }
 
   .darkLightIcon {
