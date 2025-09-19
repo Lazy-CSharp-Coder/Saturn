@@ -415,6 +415,11 @@ li {
     flex-direction: column;
   }
 
+  .imageAndQuoteDiv 
+  {
+    gap:20px;
+  }
+
   .omImg { 
     display:none; 
   }
@@ -424,8 +429,12 @@ li {
     height:121px;
   }
 
-  .textFactCategorysDiv {
+  .textFactCategorysDiv, .textFactsSaturnDiv {
+    flex-direction: column;
+    font-family: var(--primaryTextFontFamily);
     font-size: 10px;
+    width:auto;
+    
   }
 }
 
