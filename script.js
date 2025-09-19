@@ -24,6 +24,7 @@ function hamburgerToggle()
     hamMenuShowing = false;
   }
 }
+
 function subMenuToggle()
 {
   console.log("inne i sub meny toggle");
@@ -33,13 +34,13 @@ function subMenuToggle()
 
   if(subMenuShowing == false)
   {
-    subListElement.remove("hidden");
-    subListElement.add("showSubMenu");
+    subListElement.classList.remove("hidden");
+    subListElement.classList.add("showSubMenu");
   }
   else 
   {
-    subListElement.add("hidden");
-    subListElement.remove("showSubMenu");
+    subListElement.classList.add("hidden");
+    subListElement.classList.remove("showSubMenu");
   }
 }
 
