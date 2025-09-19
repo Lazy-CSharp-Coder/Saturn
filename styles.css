@@ -158,6 +158,22 @@ a {
   }
 }
 
+@media (min-width: 427px)  {
+  body {
+  
+    }
+
+  .hamburgerIcon {
+    display:none;
+    
+  }
+
+  .navListHeader {
+    display: flex;
+  }
+    /* background-color: green; */
+ 
+}
 
 
 /* MAIN */

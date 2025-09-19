@@ -13,6 +13,7 @@ function hamburgerToggle() {
     navListElement.classList.add("show");
     navListElement.classList.remove("hidden");
     console.log("showing ham menu");
+    hamMenuShowing = true;
 
   }
   else
