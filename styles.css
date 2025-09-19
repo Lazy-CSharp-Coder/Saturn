@@ -333,6 +333,11 @@ li {
   height:420px;
 }
 
+.omImgMobile
+{
+  display: none;
+}
+
 .quotePP
 {
   font-family: "Gentium Plus";
