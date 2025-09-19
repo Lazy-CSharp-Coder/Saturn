@@ -909,6 +909,15 @@ li {
   padding-bottom: 47px;
 }
 
+.navListRomferdene
+{
+  list-style-type: none;
+  gap:47px;
+  font-size: 32px;
+  padding-left:0;
+  padding-right:33px;
+}
+
 /* FOOTER */
 
 footer {
