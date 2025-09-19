@@ -343,14 +343,14 @@ li {
 
 }
 
-.imageAndQuoteDiv, .imageAndStatsDiv {
+.headingAndQuoteDiv, .imageAndStatsDiv {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   
 }
 
-.imageAndQuoteDiv {
+.headingAndQuoteDiv {
   gap:221px;
   padding-bottom: 43px;
 }
