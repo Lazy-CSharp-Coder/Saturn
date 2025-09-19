@@ -429,7 +429,7 @@ li {
     height:121px;
   }
 
-  .textFactCategorysDiv, .textFactsSaturnDiv {
+  .textFactCategorys, .textFactsSaturn {
     flex-direction: column;
     font-family: var(--primaryTextFontFamily);
     font-size: 10px;
