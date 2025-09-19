@@ -36,11 +36,13 @@ function subMenuToggle()
   {
     subListElement.classList.remove("hidden");
     subListElement.classList.add("showSubMenu");
+    subMenuShowing = true;
   }
   else 
   {
     subListElement.classList.add("hidden");
     subListElement.classList.remove("showSubMenu");
+    subMenuShowing = false;
   }
 }
 

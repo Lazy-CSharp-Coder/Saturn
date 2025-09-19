@@ -144,12 +144,14 @@ a {
   justify-content: right;
   position:absolute;
   top:8rem;
-  left:8rem;
-  font-size: 18px;
+  left:2rem;
+  .subMenuAnchor {
+      font-size: 18px;
+    }
   z-index: 1000;
-  gap: 3px;
   background-color: black;
-  color:var(--secondaryMenuColor);
+  margin:0px;
+  color:white;
   padding: 10px 10px 10px 10px;
   border: 1px solid var(--secondaryMenuColor);
 }
