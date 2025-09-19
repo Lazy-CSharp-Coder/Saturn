@@ -8,15 +8,17 @@ function hamburgerToggle() {
   const navListElement = document.querySelector(".navListHeader");
   console.log(navListElement);
 
-  if(hamMenuShowing) 
+  if(!hamMenuShowing) 
   {
     navListElement.classList.add("show");
     navListElement.classList.remove("hidden");
+
   }
   else
   {
     navListElement.classList.add("hidden");
     navListElement.classList.remove("show");
+    hamMenuShowing = false;
   }
 
 
