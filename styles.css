@@ -644,7 +644,7 @@ li {
     gap:0px;
   }
 
-  .cassiniShadowImgText, .ringsImgText, .moleculeImgText {
+  .cassiniShadowImgText, .ringsImgText {
     flex-direction: column;
     align-items: center;
   
@@ -652,8 +652,20 @@ li {
     padding-top: 22px;
      
   }
+
+  .cassiniShadowImg {
+    padding-top:0;
+  }
+
+  .moleculeImgText {
+    padding:0;
+  }
+
   .textQuestionDiv {
-    padding-top:10px;
+    padding-top:20px;
+
+    width:420px;
+    height: 94px; 
   }
 
   .cassiniShadowImg {
@@ -682,10 +694,14 @@ li {
     width:59px;
   }
 
+  .videoText {
+   padding-top: 20px;
+   padding-bottom: 20px;
+  }
 
   .video {
-    width:420px;
-    height:368px;
+    width:384px;
+    height:216px;
       
   }
 }
