@@ -23,7 +23,7 @@ function hamburgerToggle()
     navListElement.classList.remove("show");
     hamMenuShowing = false;
   }
-
+}
 function subMenuToggle()
 {
   console.log("inne i sub meny toggle");
@@ -53,7 +53,7 @@ function subMenuToggle()
   // Metode 2: Endre aktivt klassenavn via external-CSS fil
   /*navListElement.classList.add("show");
   navListElement.classList.remove("hidden");*/
-}
+
 
 // Gjør funksjonen tilgjengelig i globalt scope slik at den kan brukes i inline onclick-egenskaper.
 //globalThis.hamburgerToggle = hamburgerToggle;
