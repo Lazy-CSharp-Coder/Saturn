@@ -400,6 +400,17 @@ li {
   margin-bottom: 60px;
 }
 
+@media (max-width:426px) {
+
+  .omImg { 
+    display:none; 
+  }
+  .omImgMobile { 
+    display:flex;
+    width:136px;
+    height:121px;
+  }
+}
 
 /* ringene.html klasser */
 .mainRingene {
