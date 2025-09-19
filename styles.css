@@ -675,6 +675,13 @@ li {
     gap:0px;
   }
 
+  .komposisjonSection {
+    scroll-margin-top: 200px;
+  }
+
+  .dannelseSection {
+    scroll-margin-top: 145px;
+  }
   .cassiniShadowImgText, .ringsImgText {
     flex-direction: column;
     align-items: center;
