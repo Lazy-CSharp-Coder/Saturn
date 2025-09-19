@@ -120,10 +120,10 @@ a {
   justify-content: right;
   position: absolute;
   top:2rem;
-  right:0;
-  position:fixed;
+  left:0;
+  font-size: 12px;
   z-index: 1000;
-  background-color: pink
+
 }
 
 /* HEADER styling mobile L or less */
@@ -131,7 +131,7 @@ a {
 
   header { height: 94px;}
 
-  .headerNav {
+    .headerNav {
   
     align-items: center;
     justify-content: space-between;
@@ -141,10 +141,7 @@ a {
   
   }
 
-  .navListHeader {
-    display: none;
-  }
-
+  
   .hamburgerIcon {
     display: flex;
    

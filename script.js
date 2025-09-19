@@ -2,7 +2,8 @@ let darkMode = true;
 let hamMenuShowing = false;
 
 
-function hamburgerToggle() {
+function hamburgerToggle() 
+{
   console.log("Hi from hamburgerToggle");
 
   const navListElement = document.getElementById("headerMenu");
