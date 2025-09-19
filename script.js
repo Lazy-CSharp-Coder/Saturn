@@ -1,6 +1,6 @@
 let darkMode = true;
 let hamMenuShowing = false;
-
+let subMenuShowing = false;
 
 function hamburgerToggle() 
 {
@@ -24,6 +24,24 @@ function hamburgerToggle()
     hamMenuShowing = false;
   }
 
+function subMenuToggle()
+{
+  console.log("inne i sub meny toggle");
+
+  const subListElement = document.getElementById("subMenu");
+  console.log(subListElement);
+
+  if(subMenuShowing == false)
+  {
+    subListElement.remove("hidden");
+    subListElement.add("showSubMenu");
+  }
+  else 
+  {
+    subListElement.add("hidden");
+    subListElement.remove("showSubMenu");
+  }
+}
 
   // const navListElement = document.querySelector(".navList"); // Bevist brukt klasse for kun et element med det klassenavnet
   // console.log(navListElement);
