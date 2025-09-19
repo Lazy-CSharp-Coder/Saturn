@@ -857,7 +857,8 @@ li {
   .moonSection {
 
     flex-direction: column;
-  }
+    justify-content: center;
+    padding-bottom: 51px;
 
   .titanImg {
     width:405px;
