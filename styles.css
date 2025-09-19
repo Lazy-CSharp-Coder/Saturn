@@ -439,6 +439,7 @@ li {
   }
   .imageAndStatsDiv {
     gap:18px;
+    padding-bottom: 19px;
   }
   .textFactCategorys, .textFactsSaturn {
     flex-direction: column;
@@ -448,13 +449,15 @@ li {
     
   }
 
-  .minMaxFact {
+  .minMaxFactDiv {
     flex-direction: column;
+    gap:0px;
 
   }
 
   .textFactsSaturnDistance {
     margin:0;
+    padding:0;
   }
 
   .solarSystemImg, .saturnCoreImg {
