@@ -185,14 +185,12 @@ a {
     
   }
 
-  .navListHeader {
+  .navListHeader, .navListRingene, .navListMaanene {
     display: flex;
   }
     /* background-color: green; */
  
-  .subMenuDiv {
-    display: flex;
-  }
+ 
 }
 
 
