@@ -147,12 +147,14 @@ a {
   left:2rem;
   .subMenuAnchor {
       font-size: 18px;
+      color:white;
+         
     }
   z-index: 1000;
   background-color: black;
   margin:0px;
-  color:white;
-  padding: 10px 10px 10px 10px;
+  
+  /* padding: 10px 10px 10px 10px; */
   border: 1px solid var(--secondaryMenuColor);
 }
 
