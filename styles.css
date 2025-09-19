@@ -85,6 +85,7 @@ a {
 
 .navListHeader {
 
+  display: flex;
   flex-direction: row;
   font-family: var(--primaryFontFamily);
   font-size: 32px;
@@ -115,6 +116,12 @@ a {
 .show {
   display: flex;
   flex-direction: column;
+  justify-content: right;
+  position: absolute;
+  top:2rem;
+  right:0;
+  position:fixed;
+  z-index: 1000;
 }
 
 /* HEADER styling mobile L or less */
