@@ -117,7 +117,7 @@ a {
 /* HEADER styling mobile L or less */
 @media (max-width: 426px) {
   .headerNav {
-    flex-direction: row;
+    flex-direction:row-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 0px;
