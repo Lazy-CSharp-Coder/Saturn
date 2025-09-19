@@ -92,8 +92,8 @@ a {
 }
 
 .hamburgerIcon {
-  height: 32px;
-  width: 32px;
+  height:64px;
+  
   display: none;
 }
 
@@ -134,6 +134,7 @@ a {
 
   .hamburgerIcon {
     display: flex;
+
    
   }
 
@@ -241,8 +242,8 @@ li {
 @media (max-width: 426px) {
   h1 {
     font-size: 64px;
-    margin-top: 60px;
     margin-bottom: 27px;
+    margin-top: 0px;
   }
 
   .heroText {
@@ -618,6 +619,18 @@ footer {
   padding-right:36px;
 }
 
+@media (max-width: 426px) {
+
+  .logoKodeloftetImg {
+    display: none;
+  }
+
+  .myInfoDiv {
+    display: none;
+  }
+
+
+}
 
 
 
