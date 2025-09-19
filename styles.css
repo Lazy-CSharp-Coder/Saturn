@@ -63,6 +63,10 @@ header {
   padding-left:23px;
 }
 
+.darkLightListItem {
+  display: none;
+}
+
 .lightMode {
   --primaryBackgroundColor:rgb(220, 220, 220);
   --primaryTextColor:black;
@@ -123,8 +127,8 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding-right: 14px;
-    padding-left: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
   
   }
 
@@ -134,17 +138,20 @@ a {
 
   .hamburgerIcon {
     display: flex;
-
    
   }
 
   .logoSaturnImg {
-    transform: scaleX(-1);
+  
 
   }
 
   .darkLightIcon {
     display: none;
+  }
+
+  .darkLightListItem {
+    display:block;
   }
 }
 
