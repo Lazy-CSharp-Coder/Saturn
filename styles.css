@@ -852,6 +852,19 @@ li {
   .moonImg {
     width:341;
   }
+
+  .moonSection {
+
+    flex-direction: column;
+  }
+
+  .titanImg {
+    width:405px;
+  }
+  .titanCoreImg {
+    width:391px;
+  }
+
 }
 
 /* FOOTER */
