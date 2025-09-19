@@ -216,6 +216,11 @@ li {
   width: auto;
 }
 
+.mobileSetting {
+  display: none;
+}
+
+
 @media (max-width: 426px) {
   h1 {
     font-size: 64px;
