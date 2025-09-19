@@ -117,9 +117,10 @@ a {
 /* HEADER styling mobile L or less */
 @media (max-width: 426px) {
   .headerNav {
-    flex-direction: column-reverse;
-    align-items: flex-end;
-    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
   }
 
   .navListHeader {
