@@ -385,6 +385,11 @@ li {
   width:auto;
 }
 
+.minMaxFact {
+  flex-direction: row;
+  gap:5px;
+}
+
 .linkWikiPage {
 
   color:var(--linkColor);
@@ -441,6 +446,11 @@ li {
     font-size: 10px;
     width:auto;
     
+  }
+
+  .minMaxFact {
+    flex-direction: column;
+
   }
 
   .solarSystemImg, .saturnCoreImg {
