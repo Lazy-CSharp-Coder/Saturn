@@ -133,7 +133,9 @@ a {
   }
 
   .navListHeader {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    
   }
 
   .hamburgerIcon {
