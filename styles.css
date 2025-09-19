@@ -138,6 +138,22 @@ a {
 
 }
 
+.showSubMenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  position:absolute;
+  top:8rem;
+  left:8rem;
+  font-size: 18px;
+  z-index: 1000;
+  gap: 3px;
+  background-color: black;
+  color:var(--secondaryMenuColor);
+  padding: 10px 10px 10px 10px;
+  border: 1px solid var(--secondaryMenuColor);
+}
+
 /* HEADER styling mobile L or less */
 @media (max-width: 426px) {
 
