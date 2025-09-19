@@ -432,7 +432,9 @@ li {
     width:136px;
     height:121px;
   }
-
+  .imageAndStatsDiv {
+    gap:18px;
+  }
   .textFactCategorys, .textFactsSaturn {
     flex-direction: column;
     font-family: var(--primaryTextFontFamily);
@@ -441,9 +443,19 @@ li {
     
   }
 
+  .solarSystemImg, .saturnCoreImg {
+    width:409px;
+  }
+
   .quoteCarolyn {
     width:341px;
   }
+
+  .solarSystemImg, .saturnCoreImg {
+    margin-top:37px;
+    margin-bottom: 37px;
+  }
+  
 }
 
 /* ringene.html klasser */
