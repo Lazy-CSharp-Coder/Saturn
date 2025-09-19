@@ -1,11 +1,23 @@
+let darkMode = true;
+let hamMenuShowing = false;
+
+
 function hamburgerToggle() {
   console.log("Hi from hamburgerToggle");
 
   const navListElement = document.querySelector(".navListHeader");
   console.log(navListElement);
 
-  navListElement.classList.add("show");
-  navListElement.classList.remove("hidden");
+  if(hamMenuShowing) 
+  {
+    navListElement.classList.add("show");
+    navListElement.classList.remove("hidden");
+  }
+  else
+  {
+    navListElement.classList.add("hidden");
+    navListElement.classList.remove("show");
+  }
 
 
   // const navListElement = document.querySelector(".navList"); // Bevist brukt klasse for kun et element med det klassenavnet
@@ -22,7 +34,7 @@ function hamburgerToggle() {
 
 // Gjør funksjonen tilgjengelig i globalt scope slik at den kan brukes i inline onclick-egenskaper.
 //globalThis.hamburgerToggle = hamburgerToggle;
-darkMode = true;
+
 
 function darkLightModeToggle() 
 {
