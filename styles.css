@@ -129,6 +129,10 @@ a {
   .hamburgerIcon {
     display: flex;
   }
+
+  .darkLightIcon {
+    display: none;
+  }
 }
 
 
@@ -229,14 +233,19 @@ li {
 
   .heroImg {
     width: 325px;
+    height: 290px;
+    margin:0;
   }
 
   .quoteJK {
     font-size: 24px;
+    width: 342px;
+    padding-top: 63px
   }
 
   .quoteCrediting {
     font-size: 10px;
+    padding-top: 3px;
   }
 
   .mobileSetting {
@@ -245,6 +254,10 @@ li {
 
   .desktopSetting {
     display: none;
+  }
+
+  section {
+    align-items: center;
   }
 }
 /* om.html klasser */
