@@ -8,7 +8,7 @@ function hamburgerToggle() {
   const navListElement = document.querySelector(".navListHeader");
   console.log(navListElement);
 
-  if(!hamMenuShowing) 
+  if(hamMenuShowing == false) 
   {
     navListElement.classList.add("show");
     navListElement.classList.remove("hidden");
