@@ -648,11 +648,13 @@ li {
     flex-direction: column;
     align-items: center;
   
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding-bottom: 22px;
+    padding-top: 22px;
      
   }
-
+  .textQuestionDiv {
+    padding-top:10px;
+  }
 
   .cassiniShadowImg {
     width:408px;
