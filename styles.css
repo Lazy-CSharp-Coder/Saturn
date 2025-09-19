@@ -406,6 +406,10 @@ li {
     font-size:48px;
    }
 
+   p {
+    font-size: 10px;
+    width:341px;
+   }
   .quotePP {
     font-size:12px;
     width:218px;
@@ -435,6 +439,10 @@ li {
     font-size: 10px;
     width:auto;
     
+  }
+
+  .quoteCarolyn {
+    width:341px;
   }
 }
 
