@@ -850,7 +850,8 @@ li {
   }
 
   .moonImg {
-    width:341;
+    width:341px;
+    margin:0;
   }
 
   .moonSection {
