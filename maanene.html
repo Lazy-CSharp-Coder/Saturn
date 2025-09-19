@@ -48,10 +48,13 @@
         <div class="flex subMenuDiv">
             <div class="flex logoTextDiv">
                 <img class="logoRingsImg" src="logoRings.png" alt="fant ikke logo" />
+                <div class="flex subMenuTextAndBurgerDiv">
                 <p class="subMenuText">Saturns Måner</p>
+                <p onclick="subMenuToggle()" class="subMenuBurger">Meny</p>
+            </div>
             </div>
             <nav class="flex ringeneNav">
-                <ul class="flex navListMaanene">
+                <ul id="subMenu" class="flex navListMaanene hidden">
                     <li class="genereltListItem">
                         <a class="subMenuAnchor" href="#generelt">Generelt</a>
                     </li>
