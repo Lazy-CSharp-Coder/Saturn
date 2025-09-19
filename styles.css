@@ -221,6 +221,7 @@ li {
 }
 
 
+
 @media (max-width: 426px) {
   h1 {
     font-size: 64px;
@@ -238,6 +239,13 @@ li {
     font-size: 10px;
   }
 
+  .mobileSetting {
+    display:block;
+  }
+
+  desktopSetting {
+    display: none;
+  }
 }
 /* om.html klasser */
 
