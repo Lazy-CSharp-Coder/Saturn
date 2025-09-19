@@ -189,7 +189,7 @@ a {
     
   }
 
-  .navListHeader, .navListRingene, .navListMaanene {
+  .navListHeader, .navListRingene, .navListMaanene, .navListRomferdene {
     display: flex;
   }
 
@@ -901,11 +901,12 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:50px;
+
 }
 .pioneerImgTextDiv, .voyager1ImgTextDiv, .voyager2ImgTextDiv {
   flex-direction: column;
   align-items: center;
+  padding-bottom: 47px;
 }
 
 /* FOOTER */
