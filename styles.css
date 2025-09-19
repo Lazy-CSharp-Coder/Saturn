@@ -123,6 +123,7 @@ a {
   right:0;
   position:fixed;
   z-index: 1000;
+  background-color: pink
 }
 
 /* HEADER styling mobile L or less */

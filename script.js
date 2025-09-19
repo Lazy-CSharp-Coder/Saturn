@@ -5,13 +5,13 @@ let hamMenuShowing = false;
 function hamburgerToggle() {
   console.log("Hi from hamburgerToggle");
 
-  const navListElement = document.getElementsById("headerMenu");
+  const navListElement = document.getElementById("headerMenu");
   console.log(navListElement);
 
   if(hamMenuShowing == false) 
   {
-    navListElement.classList.add("show");
     navListElement.classList.remove("hidden");
+    navListElement.classList.add("show");
     console.log("showing ham menu");
     hamMenuShowing = true;
 
