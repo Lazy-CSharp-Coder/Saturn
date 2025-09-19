@@ -5,7 +5,7 @@ let hamMenuShowing = false;
 function hamburgerToggle() {
   console.log("Hi from hamburgerToggle");
 
-  const navListElement = document.querySelector(".navListHeader");
+  const navListElement = document.getElementsById("headerMenu");
   console.log(navListElement);
 
   if(hamMenuShowing == false) 
