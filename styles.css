@@ -380,7 +380,7 @@ li {
   font-weight: normal;
 }
 
-.textFactCategorys, .textFactsSaturn {
+.textFactCategorys, .textFactsSaturn, .textFactsSaturnDistance {
   margin: 0;
   width:auto;
 }
@@ -451,6 +451,10 @@ li {
   .minMaxFact {
     flex-direction: column;
 
+  }
+
+  .textFactsSaturnDistance {
+    margin:0;
   }
 
   .solarSystemImg, .saturnCoreImg {
