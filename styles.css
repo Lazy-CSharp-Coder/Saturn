@@ -536,7 +536,7 @@ li {
 .navListRingene
 {
   list-style-type: none;
-    gap:37px;
+  gap:37px;
   font-size: 32px;
   padding-left:0;
   padding-right:178px;
@@ -835,12 +835,11 @@ li {
 
 }
 
-@media (max-width:426) {
+@media (max-width:426px) {
   .genereltListItem {
      padding: 0;
 
   }
-
  
   .navListMaanene {
     list-style-type: none;
@@ -848,6 +847,10 @@ li {
     font-size: 19px;
     padding:12px 12px 12px 12px;
     
+  }
+
+  .moonImg {
+    width:341;
   }
 }
 
