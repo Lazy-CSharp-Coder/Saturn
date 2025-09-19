@@ -408,8 +408,11 @@ li {
 
   .quotePP {
     font-size:12px;
+    width:218px;
   }
-
+  .headingAndQuoteDiv {
+    gap:0;
+  }
   .omImg { 
     display:none; 
   }
