@@ -17,15 +17,15 @@
     <header class="flex">
         <img onclick="darkLightModeToggle()" class="darkLightIcon" src="dark_light.png" alt="fant ikke icon" />
         <nav class="flex headerNav">
-          <ul class="flex navListHeader">
+          <ul id="headerMenu" class="flex navListHeader hidden">
             <li>
-              <a href="/index.html">Hjem</a>
+              <a href="#home">Hjem</a>
             </li>
             <li>
               <a href="/om.html">Om</a>
             </li>
             <li>
-              <a href="#beskrivelse">Ringene</a>
+              <a href="/ringene.html">Ringene</a>
             </li>
             <li>
               <a href="/maanene.html">Månene</a>
@@ -33,9 +33,14 @@
             <li>
               <a href="#htmllinkher">Romferdene</a>
             </li>
+            <hr class="hamburgerLine">
+            <li class="darkLightListItem"> </li>
+            <li onclick="darkLightModeToggle()" class="darkLightListItem">D/L Lysmodus</li>
+    
           </ul>
           <img onclick="hamburgerToggle()" class="hamburgerIcon" src="hamburger.png" alt="Hamburger meny ikon"/>
           <img class="logoSaturnImg" src="logoheader.png" alt="fant ikke logo" />
+        
         </nav>
     
       </header>
@@ -138,7 +143,7 @@
     </main>
 
     <footer class="flex">
-        <img class="imgLogoKodeloftet" src="kodeloftalpha_hvit.png" alt="fant ikke logo"/>
+        <img class="logoKodeloftetImg" src="kodeloftalpha_hvit.png" alt="fant ikke logo"/>
         <div class="divNASA">
           <p class="textNASA">All pictures taken from NASA </p>
           <p class="textNASA">if not specified otherwise</p>
@@ -153,6 +158,7 @@
           <a href="https://github.com/Lazy-CSharp-Coder" target="_blank"> <img src="github32px.png" alt="fant ikke icon"/></a>
         </div>
       </footer>
+
 </body>
 
 </html>
