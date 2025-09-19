@@ -588,10 +588,7 @@ li {
   opacity:0.5;      
 }
 
-.moleculeImg {
 
-
-}
 
 .cassiniShadowImgText, .ringsImgText, .moleculeImgText {
   flex-direction: column;
@@ -657,6 +654,23 @@ li {
     font-size: 6px;
   }
 
+  .moleculeImg {
+    width:194px;
+    height:129px;
+
+  }
+  .questionText {
+    font-size: 36px;
+
+  }
+  
+  .questionImage {
+    width:59px;
+  }
+
+  .video {
+    width:420px;
+  }
 }
 
 /* maane.html */
