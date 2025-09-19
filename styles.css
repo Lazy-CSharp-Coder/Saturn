@@ -123,11 +123,14 @@ a {
   justify-content: right;
   position: absolute;
   top:4rem;
-  left:2rem;
+  left:1.9rem;
   font-size: 18px;
   z-index: 1000;
   gap:3px;
   background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 
 }
 
@@ -155,8 +158,8 @@ a {
   .hamburgerLine {
     display: flex;
     color:white;
-    width: 20px;
-    border: 1px solid white;
+    width:85px;
+    /* border: 1px solid white; */
   }
 
   .darkLightIcon {
@@ -165,7 +168,7 @@ a {
 
   .darkLightListItem {
     display: flex;
-    color:#EE7700;
+    color:rgb(234, 212, 190);
     
   }
 }
