@@ -612,12 +612,21 @@ li {
 
   /* p og h2 satt i forrige media query */
 
+  .subMenuDiv {
+    top:94px;
+  }
   .subMenuText {
     font-size: 40px;
+    padding:0;
+    margin:0;
   }
   .subMenuBurger {
-    display:none;
+    display:flex;
     color:var(--secondaryMenuColor);
+    font-family: var(--primaryFontFamily);
+    font-size:32px;
+    width:auto;
+    margin:0px;
   }
 
   .logoRingeneImg {
@@ -628,6 +637,7 @@ li {
   .subMenuTextAndBurgerDiv {
     flex-direction: column;
     align-items: center;
+    gap:0px;
   }
 }
 
